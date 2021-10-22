@@ -16,4 +16,4 @@ if __name__ == '__main__':
     # step 4: compute domain resolution test and get ip list to whitelist
     parsed_content_df["whitelistips"] = parsed_content_df["value"].apply(
         lambda x: get_ip_list_whitelist(str(x)))
-    parsed_content_df.to_csv("./result.csv")
+    parsed_content_df.to_csv("./outputs/result.csv")
