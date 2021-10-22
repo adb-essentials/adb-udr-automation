@@ -6,7 +6,7 @@ import pandas as pd
 import rapidfuzz
 
 
-def get_az_regions_dict():
+def get_az_regions_dict() -> dict:
     # run any custom command as a string
     custom_command = """az account list-locations --query "[].{azregion_humanread:displayName, azregion_terraform:name}" -o json"""
     # use 'shell = True' as Azure CLI installed on system is accessible from native Shell
@@ -25,7 +25,7 @@ def get_az_regions_dict():
     return az_region_dict
 
 
-def get_ip_list_whitelist(domain_str):
+def get_ip_list_whitelist(domain_str: str) -> list:
     # get ip list behind the given domain str
     ip_list = []
     ais = socket.getaddrinfo(domain_str, 0, 0, 0, 0)
@@ -35,7 +35,24 @@ def get_ip_list_whitelist(domain_str):
     return ip_list
 
 
-def fuzze_name_matcher():
-    # matching az region names with web-crawled regions names
-    print(rapidfuzz.fuzz.ratio("this is a test", "this is a test!"))
+def compute_whitelist_ips():
     None
+
+
+def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
+    # matching az region names with web-crawled regions names
+    # for each scraped value region, we check from dict and patch the highest partial matched region
+    cli_region_vals = region_cli_dict.keys()
+
+    best_match = None
+    max_score = 0
+
+    for reg in cli_region_vals:
+        test_score = rapidfuzz.fuzz.ratio(region_scraped, reg)
+        if test_score >= max_score:
+            # update max val and best match
+            max_score = test_score
+            #best_match = [region_scraped, reg, region_cli_dict[reg]]
+            best_match = region_cli_dict[reg]
+
+    return best_match

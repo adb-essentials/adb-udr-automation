@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from config import desired_column_names
 
 
-def parse_table(url, table_number, column_count):
+def parse_table(url: str, table_number: int, column_count: int) -> pd.DataFrame:
     # fetch raw html
     html_content = requests.get(url).text
     soup = BeautifulSoup(html_content, "html")
