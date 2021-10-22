@@ -28,15 +28,15 @@ def get_az_regions_dict() -> dict:
 def get_ip_list_whitelist(domain_str: str) -> list:
     # get ip list behind the given domain str
     ip_list = []
-    ais = socket.getaddrinfo(domain_str, 0, 0, 0, 0)
-    for result in ais:
-        ip_list.append(result[-1][0])
-    ip_list = list(set(ip_list))
+    try:
+        ais = socket.getaddrinfo(domain_str, 0, 0, 0, 0)
+        for result in ais:
+            ip_list.append(result[-1][0])
+        ip_list = list(set(ip_list))
+    except:
+        ip_list = []
+
     return ip_list
-
-
-def compute_whitelist_ips():
-    None
 
 
 def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
@@ -52,7 +52,6 @@ def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
         if test_score >= max_score:
             # update max val and best match
             max_score = test_score
-            #best_match = [region_scraped, reg, region_cli_dict[reg]]
             best_match = region_cli_dict[reg]
 
     return best_match
