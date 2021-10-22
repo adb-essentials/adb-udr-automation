@@ -31,7 +31,7 @@ def parse_table(url: str, table_number: int, column_count: int) -> pd.DataFrame:
                       for x in range(0, len(parsed_res), column_count)]
     previous_available_region = "seed_non_null"
 
-    for i, each in enumerate(composite_list):
+    for each in composite_list:
         temp_region = each[0]
         if temp_region is None:
             # overwrite list value
