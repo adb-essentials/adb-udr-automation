@@ -42,5 +42,6 @@ def parse_table(url, table_number, column_count):
             continue
 
     df = pd.DataFrame.from_records(composite_list)
+    # set column names
     df.columns = desired_column_names
     return df
