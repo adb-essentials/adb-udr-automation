@@ -42,6 +42,8 @@ def get_ip_list_whitelist(domain_str: str) -> list:
 def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
     # matching az region names with web-crawled regions names
     # for each scraped value region, we check from dict and patch the highest partial matched region
+    # in most cases scraped value will find a very close / exact match from azcli results, we put a min_score to check and exclude 21vianet operated regions (China regions)
+    # thus we can set a very high min_score in config
     cli_region_vals = region_cli_dict.keys()
 
     best_match = None
@@ -49,9 +51,11 @@ def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
 
     for reg in cli_region_vals:
         test_score = rapidfuzz.fuzz.ratio(region_scraped, reg)
-        if test_score >= max_score:
-            # update max val and best match
-            max_score = test_score
-            best_match = region_cli_dict[reg]
-
+        if "china" in str(region_scraped).lower():
+            return None
+        else:
+            if test_score >= max_score:
+                # update max val and best match
+                max_score = test_score
+                best_match = region_cli_dict[reg]
     return best_match
