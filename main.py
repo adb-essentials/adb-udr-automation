@@ -21,4 +21,5 @@ if __name__ == '__main__':
             lambda x: get_ip_list_whitelist(str(x)))
 
         print(parsed_content_df.head())
-        parsed_content_df.to_csv(f"./outputs/result_{table_name}.csv")
+        parsed_content_df.to_csv(
+            f"./outputs/result_{table_name}.csv", index=False)
