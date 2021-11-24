@@ -51,6 +51,7 @@ def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
 
     for reg in cli_region_vals:
         test_score = rapidfuzz.fuzz.ratio(region_scraped, reg)
+        # china regions operated by 21vianet
         if "china" in str(region_scraped).lower():
             return None
         else:
