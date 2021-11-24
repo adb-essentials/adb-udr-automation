@@ -6,7 +6,7 @@ from utils import (fuzzy_name_matcher, get_az_regions_dict,
                    get_ip_list_whitelist)
 
 if __name__ == '__main__':
-    # step 1: parse the udr official website
+    # step 1: parse the udr official website, choose table 1 or 2
     parsed_content_df = parse_table(url, 1, column_count)
     # step 2: get cli output to see all deployment format
     az_regions_dict = get_az_regions_dict()
