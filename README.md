@@ -13,7 +13,7 @@ On Azure Databricks, some control plane services have non-static IP, this projec
 2. In the folder, setup your local env by: `make setup`, this will install requirements.txt
 3. `make run` will generate 2 csv files in `outputs` folder.
 
-In `/outputs`, Table 1 contains: 
+In `outputs`, Table 1 contains: 
 
 | region            | attribute                              | value                                    | az_region_to_deploy_fuzzy_match | whitelistips      |
 | ----------------- | -------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------- |
