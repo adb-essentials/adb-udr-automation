@@ -29,6 +29,6 @@ Table 2 contains:
 | ----------------- | ------------------------------- | --------------------------------------------------------------------- | ------------------------------- | ----------------- |
 | Australia Central | Metastore                       | consolidated-australiacentral-prod-metastore.mysql.database.azure.com | australiacentral                | ['20.36.105.0']   |
 | Australia Central | Artifact Blob storage primary   | dbartifactsprodaustc.blob.core.windows.net                            | australiacentral                | ['52.239.216.36'] |
-| Australia Central | Artifact Blob storage secondary | secondary,dbartifactsprodaustc2.blob.core.windows.net                 | australiacentral                | ['52.239.218.4']  |
-| Australia Central | Log Blob storage                | storage,dblogprodausteast.blob.core.windows.net                       | australiacentral                | ['20.150.66.228'] |
+| Australia Central | Artifact Blob storage secondary | dbartifactsprodaustc2.blob.core.windows.net                           | australiacentral                | ['52.239.218.4']  |
+| Australia Central | Log Blob storage                | dblogprodausteast.blob.core.windows.net                               | australiacentral                | ['20.150.66.228'] |
 | Australia Central | Event Hub endpoint              | prod-australiaeast-observabilityeventhubs.servicebus.windows.net      | australiacentral                | ['13.70.72.2']    |
