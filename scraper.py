@@ -23,7 +23,8 @@ def parse_table(url: str, table_number: int, column_count: int) -> pd.DataFrame:
         cells = row.findChildren('td')
         # group every 3 elements
         for cell in cells:
-            value = cell.string
+            # need to fix for <br></br> and convert to ' and ' 
+            value = cell.get_text(" and ")
             parsed_res.append(value)
 
     # Create list of lists, for 3-column structure table, using 3 as constant
@@ -33,7 +34,7 @@ def parse_table(url: str, table_number: int, column_count: int) -> pd.DataFrame:
 
     for each in composite_list:
         temp_region = each[0]
-        if temp_region is None:
+        if temp_region is '':
             # overwrite list value
             each[0] = previous_available_region
         else:
