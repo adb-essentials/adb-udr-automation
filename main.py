@@ -11,7 +11,11 @@ if __name__ == '__main__':
     # there are 2 tables to parse from the url
     gmt = time.gmtime()
     ts = str(calendar.timegm(gmt))
+    # if you want to write time stamped output files 
     tables = {"table1-" + ts: 1, "table2-" + ts: 2}
+    # for normal file names use below
+    # tables = {"table1" : 1, "table2" : 2}
+
     for table_name, table_number in tables.items():
         # step 1: parse the udr official website, choose table 1 or 2
         parsed_content_df = parse_table(url, table_number, column_count)

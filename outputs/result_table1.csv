@@ -1,157 +1,157 @@
-region,attribute,value,az_region_to_deploy_fuzzy_match,whitelistips
-Australia Central,Webapp,13.75.218.172/32,australiacentral,[]
-Australia Central,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiacentral,['13.75.164.249']
-Australia Central,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiacentral,[]
-Australia Central,Extended infrastructure,20.53.145.128/28,australiacentral,[]
-Australia Central 2,Webapp,13.75.218.172/32,australiacentral2,[]
-Australia Central 2,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiacentral2,['13.75.164.249']
-Australia Central 2,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiacentral2,[]
-Australia Central 2,Extended infrastructure,20.53.145.128/28,australiacentral2,[]
-Australia East,Webapp,13.75.218.172/32,australiaeast,[]
-Australia East,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiaeast,['13.75.164.249']
-Australia East,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiaeast,[]
-Australia East,Extended infrastructure,20.53.145.128/28,australiaeast,[]
-Australia Southeast,Webapp,13.75.218.172/32,australiasoutheast,[]
-Australia Southeast,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiasoutheast,['13.75.164.249']
-Australia Southeast,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiasoutheast,[]
-Australia Southeast,Extended infrastructure,20.53.145.128/28,australiasoutheast,[]
-Brazil South,Webapp,104.41.54.118/32,brazilsouth,[]
-Brazil South,SCC relay (if SCC is enabled),tunnel.brazilsouth.azuredatabricks.net,brazilsouth,['23.97.106.142']
-Brazil South,Control Plane NAT (if SCC is disabled),191.232.53.223/32,brazilsouth,[]
-Brazil South,Extended infrastructure,20.197.222.144/28,brazilsouth,[]
-Canada Central,Webapp,13.71.184.74/32,canadacentral,[]
-Canada Central,SCC relay (if SCC is enabled),tunnel.canadacentral.azuredatabricks.net,canadacentral,['13.88.249.244']
-Canada Central,Control Plane NAT (if SCC is disabled),40.85.223.25/32,canadacentral,[]
-Canada Central,Extended infrastructure,52.139.4.160/28,canadacentral,[]
-Canada East,Webapp,13.71.184.74/32,canadaeast,[]
-Canada East,SCC relay (if SCC is enabled),tunnel.canadacentral.azuredatabricks.net,canadaeast,['13.88.249.244']
-Canada East,Control Plane NAT (if SCC is disabled),40.85.223.25/32,canadaeast,[]
-Canada East,Extended infrastructure,52.139.4.160/28,canadaeast,[]
-Central India,Webapp,104.211.89.81/32,centralindia,[]
-Central India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,centralindia,['52.172.133.58']
-Central India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,centralindia,[]
-Central India,Extended infrastructure,20.193.246.208/28,centralindia,[]
-Central US,Webapp,40.70.58.221/32 and 20.37.156.209/32,centralus,[]
-Central US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.centralusc2.azuredatabricks.net,centralus,[]
-Central US,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 20.37.156.208/32,centralus,[]
-Central US,Extended infrastructure,20.57.106.0/28,centralus,[]
-China East 2,Webapp,52.130.1.64/32,,[]
-China East 2,SCC relay,tunnel.chinaeast2.databricks.azure.cn,,['52.130.1.66']
-China East 2,ControlÂ PlaneÂ NAT,52.130.1.65/32,,[]
-China East 2,Extended infrastructure,Extended infrastructure is not supported in China regions,,[]
-China North 2,Webapp,52.130.16.113/32,,[]
-China North 2,SCC relay,tunnel.chinanorth2.databricks.azure.cn,,['52.130.16.116']
-China North 2,ControlÂ PlaneÂ NAT,52.130.16.112/32,,[]
-China North 2,Extended infrastructure,Extended infrastructure is not supported in China regions,,[]
-East Asia,Webapp,52.187.145.107/32,eastasia,[]
-East Asia,SCC relay (if SCC is enabled),tunnel.southeastasia.azuredatabricks.net,eastasia,['52.230.27.216']
-East Asia,Control Plane NAT (if SCC is disabled),52.187.0.85/32,eastasia,[]
-East Asia,Extended infrastructure,20.195.104.64/28,eastasia,[]
-East US,Webapp,"40.70.58.221/32, 20.42.4.209/32, and 20.42.4.211",eastus,[]
-East US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.eastusc3.azuredatabricks.net,eastus,[]
-East US,Control Plane NAT (if SCC is disabled),"23.101.152.95/32, 20.42.4.208/32, and 20.42.4.210",eastus,[]
-East US,Extended infrastructure,20.57.106.0/28,eastus,[]
-East US 2,Webapp,40.70.58.221/32 and 20.41.4.113/32,eastus2,[]
-East US 2,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.eastus2c2.azuredatabricks.net,eastus2,[]
-East US 2,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 20.41.4.112/32,eastus2,[]
-East US 2,Extended infrastructure,20.57.106.0/28,eastus2,[]
-France Central,Webapp,40.89.168.225/32,francecentral,[]
-France Central,SCC relay (if SCC is enabled),tunnel.francecentral.azuredatabricks.net,francecentral,['51.103.18.111']
-France Central,Control Plane NAT (if SCC is disabled),40.89.171.101/32,francecentral,[]
-France Central,Extended infrastructure,20.74.69.128/28,francecentral,[]
-Germany West Central,Webapp,20.52.93.41/32,germanywestcentral,[]
-Germany West Central,SCC relay (if SCC is enabled),tunnel.germanywestcentral.azuredatabricks.net,germanywestcentral,['20.52.93.40']
-Germany West Central,Control Plane NAT (if SCC is disabled),20.52.93.42/32,germanywestcentral,[]
-Germany West Central,Extended infrastructure,20.52.93.40/29,germanywestcentral,[]
-Japan East,Webapp,52.246.160.72/32,japaneast,[]
-Japan East,SCC relay (if SCC is enabled),tunnel.japaneast.azuredatabricks.net,japaneast,['20.46.121.76']
-Japan East,Control Plane NAT (if SCC is disabled),13.78.19.235/32,japaneast,[]
-Japan East,Extended infrastructure,20.78.226.176/28,japaneast,[]
-Japan West,Webapp,52.246.160.72/32,japanwest,[]
-Japan West,SCC relay (if SCC is enabled),tunnel.japaneast.azuredatabricks.net,japanwest,['20.46.121.76']
-Japan West,Control Plane NAT (if SCC is disabled),13.78.19.235/32,japanwest,[]
-Japan West,Extended infrastructure,20.78.226.176/28,japanwest,[]
-Korea Central,Webapp,52.141.22.164/32,koreacentral,[]
-Korea Central,SCC relay (if SCC is enabled),tunnel.koreacentral.azuredatabricks.net,koreacentral,['20.194.4.102']
-Korea Central,Control Plane NAT (if SCC is disabled),52.141.6.181/32,koreacentral,[]
-Korea Central,Extended infrastructure,20.194.107.48/28,koreacentral,[]
-North Central US,Webapp,40.70.58.221/32 and 40.80.188.0/32,northcentralus,[]
-North Central US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.northcentralusc2.azuredatabricks.net,northcentralus,[]
-North Central US,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 40.80.188.1/32,northcentralus,[]
-North Central US,Extended infrastructure,20.57.106.0/28,northcentralus,[]
-North Europe,Webapp,52.232.19.246/32 and 20.38.84.81/32,northeurope,[]
-North Europe,SCC relay (if SCC is enabled),tunnel.westeurope.azuredatabricks.net and tunnel.northeuropec2.azuredatabricks.net,northeurope,[]
-North Europe,Control Plane NAT (if SCC is disabled),23.100.0.135/32 and 20.38.84.80/32,northeurope,[]
-North Europe,Extended infrastructure,20.73.215.48/28,northeurope,[]
-Norway East,Webapp,51.120.40.120/32,norwayeast,[]
-Norway East,SCC relay (if SCC is enabled),tunnel.norwayeast.azuredatabricks.net,norwayeast,['51.120.40.122']
-Norway East,Control Plane NAT (if SCC is disabled),51.120.40.121/32,norwayeast,[]
-Norway East,Extended infrastructure,51.13.86.224/28,norwayeast,[]
-South Africa North,Webapp,102.133.224.24/32,southafricanorth,[]
-South Africa North,SCC relay (if SCC is enabled),tunnel.southafricanorth.azuredatabricks.net,southafricanorth,['102.37.41.3']
-South Africa North,Control Plane NAT (if SCC is disabled),40.127.5.82/32,southafricanorth,[]
-South Africa North,Extended infrastructure,102.133.192.48/28,southafricanorth,[]
-South Central US,Webapp,40.118.174.12/32 and 40.119.9.208/32,southcentralus,[]
-South Central US,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,southcentralus,['40.86.167.110']
-South Central US,Control Plane NAT (if SCC is disabled),40.83.178.242/32 and 40.119.9.209/32,southcentralus,[]
-South Central US,Extended infrastructure,13.91.84.96/28,southcentralus,[]
-South India,Webapp,104.211.89.81/32,southindia,[]
-South India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,southindia,['52.172.133.58']
-South India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,southindia,[]
-South India,Extended infrastructure,20.193.246.208/28,southindia,[]
-Southeast Asia,Webapp,52.187.145.107/32,southeastasia,[]
-Southeast Asia,SCC relay (if SCC is enabled),tunnel.southeastasia.azuredatabricks.net,southeastasia,['52.230.27.216']
-Southeast Asia,Control Plane NAT (if SCC is disabled),52.187.0.85/32,southeastasia,[]
-Southeast Asia,Extended infrastructure,20.195.104.64/28,southeastasia,[]
-Sweden Central,Webapp,51.12.41.16/32,swedencentral,[]
-Sweden Central,SCC relay (if SCC is enabled),tunnel.swedencentral.azuredatabricks.net,swedencentral,['51.12.41.18']
-Sweden Central,Control Plane NAT (if SCC is disabled),51.12.41.17/32,swedencentral,[]
-Sweden Central,Extended infrastructure,20.91.164.16/28,swedencentral,[]
-Switzerland North,Webapp,51.107.48.120/32,switzerlandnorth,[]
-Switzerland North,SCC relay (if SCC is enabled),tunnel.switzerlandnorth.azuredatabricks.net,switzerlandnorth,['51.107.203.195']
-Switzerland North,Control Plane NAT (if SCC is disabled),51.107.48.121/32,switzerlandnorth,[]
-Switzerland North,Extended infrastructure,51.103.172.176/28,switzerlandnorth,[]
-Switzerland West,Webapp,51.107.144.68/32,switzerlandwest,[]
-Switzerland West,SCC relay (if SCC is enabled),tunnel.switzerlandwest.azuredatabricks.net,switzerlandwest,['51.107.144.70']
-Switzerland West,Control Plane NAT (if SCC is disabled),51.107.144.69/32,switzerlandwest,[]
-Switzerland West,Extended infrastructure,51.107.233.80/28,switzerlandwest,[]
-UAE North,Webapp,40.123.212.253/32,uaenorth,[]
-UAE North,SCC relay (if SCC is enabled),tunnel.uaenorth.azuredatabricks.net,uaenorth,['40.123.225.135']
-UAE North,Control Plane NAT (if SCC is disabled),40.123.218.63/32,uaenorth,[]
-UAE North,Extended infrastructure,40.120.89.0/28,uaenorth,[]
-UK South,Webapp,51.140.204.4/32,uksouth,[]
-UK South,SCC relay (if SCC is enabled),tunnel.ukwest.azuredatabricks.net,uksouth,['51.141.103.193']
-UK South,Control Plane NAT (if SCC is disabled),51.140.203.27/32,uksouth,[]
-UK South,Extended infrastructure,51.141.64.128/28,uksouth,[]
-UK West,Webapp,51.140.204.4/32,ukwest,[]
-UK West,SCC relay (if SCC is enabled),tunnel.ukwest.azuredatabricks.net,ukwest,['51.141.103.193']
-UK West,Control Plane NAT (if SCC is disabled),51.140.203.27/32,ukwest,[]
-UK West,Extended infrastructure,51.141.64.128/28,ukwest,[]
-US Gov Arizona,Webapp,52.244.37.5/32,southafrica,[]
-US Gov Arizona,SCC relay (if SCC is enabled),tunnel.usgovarizona.databricks.azure.us,southafrica,['52.244.38.231']
-US Gov Arizona,Control Plane NAT (if SCC is disabled),20.140.48.120/32,southafrica,[]
-US Gov Arizona,Extended infrastructure,Extended infrastructure is not supported in US Gov regions,southafrica,[]
-US Gov Virginia,Webapp,52.227.227.164/32,southindia,[]
-US Gov Virginia,SCC relay (if SCC is enabled),tunnel.usgovvirginia.databricks.azure.us,southindia,['52.227.226.255']
-US Gov Virginia,Control Plane NAT (if SCC is disabled),52.127.49.73/32,southindia,[]
-US Gov Virginia,Extended infrastructure,Extended infrastructure is not supported in US Gov regions,southindia,[]
-West Central US,Webapp,52.150.136.68/32,westcentralus,[]
-West Central US,SCC relay (if SCC is enabled),tunnel.westcentralus.azuredatabricks.net,westcentralus,['52.150.136.70']
-West Central US,Control Plane NAT (if SCC is disabled),52.150.136.69/32,westcentralus,[]
-West Central US,Extended infrastructure,52.161.34.0/28,westcentralus,[]
-West Europe,Webapp,52.232.19.246/32 and 40.74.30.80/32,westeurope,[]
-West Europe,SCC relay (if SCC is enabled),tunnel.westeurope.azuredatabricks.net and tunnel.westeuropec2.azuredatabricks.net,westeurope,[]
-West Europe,Control Plane NAT (if SCC is disabled),23.100.0.135/32 and 40.74.30.81/32,westeurope,[]
-West Europe,Extended infrastructure,20.73.215.48/28,westeurope,[]
-West India,Webapp,104.211.89.81/32,westindia,[]
-West India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,westindia,['52.172.133.58']
-West India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,westindia,[]
-West India,Extended infrastructure,20.193.246.208/28,westindia,[]
-West US,Webapp,40.118.174.12/32 and 20.42.129.160/32,westus,[]
-West US,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,westus,['40.86.167.110']
-West US,Control Plane NAT (if SCC is disabled),40.83.178.242/32 and 20.42.129.161/32,westus,[]
-West US,Extended infrastructure,13.91.84.96/28,westus,[]
-West US 2,Webapp,40.118.174.12/32,westus2,[]
-West US 2,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,westus2,['40.86.167.110']
-West US 2,Control Plane NAT (if SCC is disabled),40.83.178.242/32,westus2,[]
-West US 2,Extended infrastructure,13.91.84.96/28,westus2,[]
+region,attribute,value,az_region_to_deploy_fuzzy_match,whitelistips,is_in_service_tag
+Australia Central,Webapp,13.75.218.172/32,australiacentral,['13.75.218.172/32'],yes
+Australia Central,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiacentral,['13.75.164.249/32'],yes
+Australia Central,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiacentral,['13.70.105.50/32'],yes
+Australia Central,Extended infrastructure,20.53.145.128/28,australiacentral,['20.53.145.128/28'],no
+Australia Central 2,Webapp,13.75.218.172/32,australiacentral2,['13.75.218.172/32'],yes
+Australia Central 2,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiacentral2,['13.75.164.249/32'],yes
+Australia Central 2,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiacentral2,['13.70.105.50/32'],yes
+Australia Central 2,Extended infrastructure,20.53.145.128/28,australiacentral2,['20.53.145.128/28'],no
+Australia East,Webapp,13.75.218.172/32,australiaeast,['13.75.218.172/32'],yes
+Australia East,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiaeast,['13.75.164.249/32'],yes
+Australia East,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiaeast,['13.70.105.50/32'],yes
+Australia East,Extended infrastructure,20.53.145.128/28,australiaeast,['20.53.145.128/28'],no
+Australia Southeast,Webapp,13.75.218.172/32,australiasoutheast,['13.75.218.172/32'],yes
+Australia Southeast,SCC relay (if SCC is enabled),tunnel.australiaeast.azuredatabricks.net,australiasoutheast,['13.75.164.249/32'],yes
+Australia Southeast,Control Plane NAT (if SCC is disabled),13.70.105.50/32,australiasoutheast,['13.70.105.50/32'],yes
+Australia Southeast,Extended infrastructure,20.53.145.128/28,australiasoutheast,['20.53.145.128/28'],no
+Brazil South,Webapp,104.41.54.118/32,brazilsouth,['104.41.54.118/32'],yes
+Brazil South,SCC relay (if SCC is enabled),tunnel.brazilsouth.azuredatabricks.net,brazilsouth,['23.97.106.142/32'],yes
+Brazil South,Control Plane NAT (if SCC is disabled),191.232.53.223/32,brazilsouth,['191.232.53.223/32'],yes
+Brazil South,Extended infrastructure,20.197.222.144/28,brazilsouth,['20.197.222.144/28'],no
+Canada Central,Webapp,13.71.184.74/32,canadacentral,['13.71.184.74/32'],yes
+Canada Central,SCC relay (if SCC is enabled),tunnel.canadacentral.azuredatabricks.net,canadacentral,['13.88.249.244/32'],yes
+Canada Central,Control Plane NAT (if SCC is disabled),40.85.223.25/32,canadacentral,['40.85.223.25/32'],yes
+Canada Central,Extended infrastructure,52.139.4.160/28,canadacentral,['52.139.4.160/28'],no
+Canada East,Webapp,13.71.184.74/32,canadaeast,['13.71.184.74/32'],yes
+Canada East,SCC relay (if SCC is enabled),tunnel.canadacentral.azuredatabricks.net,canadaeast,['13.88.249.244/32'],yes
+Canada East,Control Plane NAT (if SCC is disabled),40.85.223.25/32,canadaeast,['40.85.223.25/32'],yes
+Canada East,Extended infrastructure,52.139.4.160/28,canadaeast,['52.139.4.160/28'],no
+Central India,Webapp,104.211.89.81/32,centralindia,['104.211.89.81/32'],yes
+Central India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,centralindia,['52.172.133.58/32'],yes
+Central India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,centralindia,['104.211.101.14/32'],yes
+Central India,Extended infrastructure,20.193.246.208/28,centralindia,['20.193.246.208/28'],no
+Central US,Webapp,40.70.58.221/32 and 20.37.156.209/32,centralus,"['40.70.58.221/32', '20.37.156.209/32']",yes
+Central US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.centralusc2.azuredatabricks.net,centralus,"['13.86.58.215/32', '52.247.0.200/32']",yes
+Central US,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 20.37.156.208/32,centralus,"['23.101.152.95/32', '20.37.156.208/32']",yes
+Central US,Extended infrastructure,20.57.106.0/28,centralus,['20.57.106.0/28'],no
+China East 2,Webapp,52.130.1.64/32,chinaeast2,['52.130.1.64/32'],no
+China East 2,SCC relay,tunnel.chinaeast2.databricks.azure.cn,chinaeast2,['52.130.1.66/32'],no
+China East 2,ControlÂ PlaneÂ NAT,52.130.1.65/32,chinaeast2,['52.130.1.65/32'],no
+China East 2,Extended infrastructure,Extended infrastructure is not supported in China regions,chinaeast2,[],n/a
+China North 2,Webapp,52.130.16.113/32,chinanorth2,['52.130.16.113/32'],no
+China North 2,SCC relay,tunnel.chinanorth2.databricks.azure.cn,chinanorth2,['52.130.16.116/32'],no
+China North 2,ControlÂ PlaneÂ NAT,52.130.16.112/32,chinanorth2,['52.130.16.112/32'],no
+China North 2,Extended infrastructure,Extended infrastructure is not supported in China regions,chinanorth2,[],n/a
+East Asia,Webapp,52.187.145.107/32,eastasia,['52.187.145.107/32'],yes
+East Asia,SCC relay (if SCC is enabled),tunnel.southeastasia.azuredatabricks.net,eastasia,['52.230.27.216/32'],yes
+East Asia,Control Plane NAT (if SCC is disabled),52.187.0.85/32,eastasia,['52.187.0.85/32'],yes
+East Asia,Extended infrastructure,20.195.104.64/28,eastasia,['20.195.104.64/28'],no
+East US,Webapp,"40.70.58.221/32, 20.42.4.209/32, and 20.42.4.211",eastus,['20.42.4.211/32'],yes
+East US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.eastusc3.azuredatabricks.net,eastus,"['52.146.50.16/32', '52.247.0.200/32']",yes
+East US,Control Plane NAT (if SCC is disabled),"23.101.152.95/32, 20.42.4.208/32, and 20.42.4.210",eastus,['20.42.4.210/32'],yes
+East US,Extended infrastructure,20.57.106.0/28,eastus,['20.57.106.0/28'],no
+East US 2,Webapp,40.70.58.221/32 and 20.41.4.113/32,eastus2,"['40.70.58.221/32', '20.41.4.113/32']",yes
+East US 2,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.eastus2c2.azuredatabricks.net,eastus2,"['52.247.0.200/32', '20.186.83.56/32']",yes
+East US 2,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 20.41.4.112/32,eastus2,"['23.101.152.95/32', '20.41.4.112/32']",yes
+East US 2,Extended infrastructure,20.57.106.0/28,eastus2,['20.57.106.0/28'],no
+France Central,Webapp,40.89.168.225/32,francecentral,['40.89.168.225/32'],yes
+France Central,SCC relay (if SCC is enabled),tunnel.francecentral.azuredatabricks.net,francecentral,['51.103.18.111/32'],yes
+France Central,Control Plane NAT (if SCC is disabled),40.89.171.101/32,francecentral,['40.89.171.101/32'],yes
+France Central,Extended infrastructure,20.74.69.128/28,francecentral,['20.74.69.128/28'],no
+Germany West Central,Webapp,20.52.93.41/32,germanywestcentral,['20.52.93.41/32'],yes
+Germany West Central,SCC relay (if SCC is enabled),tunnel.germanywestcentral.azuredatabricks.net,germanywestcentral,['20.52.93.40/32'],yes
+Germany West Central,Control Plane NAT (if SCC is disabled),20.52.93.42/32,germanywestcentral,['20.52.93.42/32'],yes
+Germany West Central,Extended infrastructure,20.52.93.40/29,germanywestcentral,['20.52.93.40/29'],yes
+Japan East,Webapp,52.246.160.72/32,japaneast,['52.246.160.72/32'],yes
+Japan East,SCC relay (if SCC is enabled),tunnel.japaneast.azuredatabricks.net,japaneast,['20.46.121.76/32'],yes
+Japan East,Control Plane NAT (if SCC is disabled),13.78.19.235/32,japaneast,['13.78.19.235/32'],yes
+Japan East,Extended infrastructure,20.78.226.176/28,japaneast,['20.78.226.176/28'],no
+Japan West,Webapp,52.246.160.72/32,japanwest,['52.246.160.72/32'],yes
+Japan West,SCC relay (if SCC is enabled),tunnel.japaneast.azuredatabricks.net,japanwest,['20.46.121.76/32'],yes
+Japan West,Control Plane NAT (if SCC is disabled),13.78.19.235/32,japanwest,['13.78.19.235/32'],yes
+Japan West,Extended infrastructure,20.78.226.176/28,japanwest,['20.78.226.176/28'],no
+Korea Central,Webapp,52.141.22.164/32,koreacentral,['52.141.22.164/32'],yes
+Korea Central,SCC relay (if SCC is enabled),tunnel.koreacentral.azuredatabricks.net,koreacentral,['20.194.4.102/32'],yes
+Korea Central,Control Plane NAT (if SCC is disabled),52.141.6.181/32,koreacentral,['52.141.6.181/32'],yes
+Korea Central,Extended infrastructure,20.194.107.48/28,koreacentral,['20.194.107.48/28'],no
+North Central US,Webapp,40.70.58.221/32 and 40.80.188.0/32,northcentralus,"['40.70.58.221/32', '40.80.188.0/32']",yes
+North Central US,SCC relay (if SCC is enabled),tunnel.eastus2.azuredatabricks.net and tunnel.northcentralusc2.azuredatabricks.net,northcentralus,"['23.100.226.13/32', '52.247.0.200/32']",yes
+North Central US,Control Plane NAT (if SCC is disabled),23.101.152.95/32 and 40.80.188.1/32,northcentralus,"['23.101.152.95/32', '40.80.188.1/32']",yes
+North Central US,Extended infrastructure,20.57.106.0/28,northcentralus,['20.57.106.0/28'],no
+North Europe,Webapp,52.232.19.246/32 and 20.38.84.81/32,northeurope,"['52.232.19.246/32', '20.38.84.81/32']",yes
+North Europe,SCC relay (if SCC is enabled),tunnel.westeurope.azuredatabricks.net and tunnel.northeuropec2.azuredatabricks.net,northeurope,"['23.97.201.41/32', '40.127.147.196/32']",yes
+North Europe,Control Plane NAT (if SCC is disabled),23.100.0.135/32 and 20.38.84.80/32,northeurope,"['23.100.0.135/32', '20.38.84.80/32']",yes
+North Europe,Extended infrastructure,20.73.215.48/28,northeurope,['20.73.215.48/28'],no
+Norway East,Webapp,51.120.40.120/32,norwayeast,['51.120.40.120/32'],yes
+Norway East,SCC relay (if SCC is enabled),tunnel.norwayeast.azuredatabricks.net,norwayeast,['51.120.40.122/32'],yes
+Norway East,Control Plane NAT (if SCC is disabled),51.120.40.121/32,norwayeast,['51.120.40.121/32'],yes
+Norway East,Extended infrastructure,51.13.86.224/28,norwayeast,['51.13.86.224/28'],no
+South Africa North,Webapp,102.133.224.24/32,southafricanorth,['102.133.224.24/32'],yes
+South Africa North,SCC relay (if SCC is enabled),tunnel.southafricanorth.azuredatabricks.net,southafricanorth,['102.37.41.3/32'],yes
+South Africa North,Control Plane NAT (if SCC is disabled),40.127.5.82/32,southafricanorth,['40.127.5.82/32'],yes
+South Africa North,Extended infrastructure,102.133.192.48/28,southafricanorth,['102.133.192.48/28'],no
+South Central US,Webapp,40.118.174.12/32 and 40.119.9.208/32,southcentralus,"['40.118.174.12/32', '40.119.9.208/32']",yes
+South Central US,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,southcentralus,['40.86.167.110/32'],yes
+South Central US,Control Plane NAT (if SCC is disabled),40.83.178.242/32 and 40.119.9.209/32,southcentralus,"['40.83.178.242/32', '40.119.9.209/32']",yes
+South Central US,Extended infrastructure,13.91.84.96/28,southcentralus,['13.91.84.96/28'],no
+South India,Webapp,104.211.89.81/32,southindia,['104.211.89.81/32'],yes
+South India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,southindia,['52.172.133.58/32'],yes
+South India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,southindia,['104.211.101.14/32'],yes
+South India,Extended infrastructure,20.193.246.208/28,southindia,['20.193.246.208/28'],no
+Southeast Asia,Webapp,52.187.145.107/32,southeastasia,['52.187.145.107/32'],yes
+Southeast Asia,SCC relay (if SCC is enabled),tunnel.southeastasia.azuredatabricks.net,southeastasia,['52.230.27.216/32'],yes
+Southeast Asia,Control Plane NAT (if SCC is disabled),52.187.0.85/32,southeastasia,['52.187.0.85/32'],yes
+Southeast Asia,Extended infrastructure,20.195.104.64/28,southeastasia,['20.195.104.64/28'],no
+Sweden Central,Webapp,51.12.41.16/32,swedencentral,['51.12.41.16/32'],yes
+Sweden Central,SCC relay (if SCC is enabled),tunnel.swedencentral.azuredatabricks.net,swedencentral,['51.12.41.18/32'],yes
+Sweden Central,Control Plane NAT (if SCC is disabled),51.12.41.17/32,swedencentral,['51.12.41.17/32'],yes
+Sweden Central,Extended infrastructure,20.91.164.16/28,swedencentral,['20.91.164.16/28'],no
+Switzerland North,Webapp,51.107.48.120/32,switzerlandnorth,['51.107.48.120/32'],yes
+Switzerland North,SCC relay (if SCC is enabled),tunnel.switzerlandnorth.azuredatabricks.net,switzerlandnorth,['51.107.203.195/32'],no
+Switzerland North,Control Plane NAT (if SCC is disabled),51.107.48.121/32,switzerlandnorth,['51.107.48.121/32'],yes
+Switzerland North,Extended infrastructure,51.103.172.176/28,switzerlandnorth,['51.103.172.176/28'],no
+Switzerland West,Webapp,51.107.144.68/32,switzerlandwest,['51.107.144.68/32'],yes
+Switzerland West,SCC relay (if SCC is enabled),tunnel.switzerlandwest.azuredatabricks.net,switzerlandwest,['51.107.144.70/32'],yes
+Switzerland West,Control Plane NAT (if SCC is disabled),51.107.144.69/32,switzerlandwest,['51.107.144.69/32'],yes
+Switzerland West,Extended infrastructure,51.107.233.80/28,switzerlandwest,['51.107.233.80/28'],no
+UAE North,Webapp,40.123.212.253/32,uaenorth,['40.123.212.253/32'],yes
+UAE North,SCC relay (if SCC is enabled),tunnel.uaenorth.azuredatabricks.net,uaenorth,['40.123.225.135/32'],yes
+UAE North,Control Plane NAT (if SCC is disabled),40.123.218.63/32,uaenorth,['40.123.218.63/32'],yes
+UAE North,Extended infrastructure,40.120.89.0/28,uaenorth,['40.120.89.0/28'],no
+UK South,Webapp,51.140.204.4/32,uksouth,['51.140.204.4/32'],yes
+UK South,SCC relay (if SCC is enabled),tunnel.ukwest.azuredatabricks.net,uksouth,['51.141.103.193/32'],yes
+UK South,Control Plane NAT (if SCC is disabled),51.140.203.27/32,uksouth,['51.140.203.27/32'],yes
+UK South,Extended infrastructure,51.141.64.128/28,uksouth,['51.141.64.128/28'],no
+UK West,Webapp,51.140.204.4/32,ukwest,['51.140.204.4/32'],yes
+UK West,SCC relay (if SCC is enabled),tunnel.ukwest.azuredatabricks.net,ukwest,['51.141.103.193/32'],yes
+UK West,Control Plane NAT (if SCC is disabled),51.140.203.27/32,ukwest,['51.140.203.27/32'],yes
+UK West,Extended infrastructure,51.141.64.128/28,ukwest,['51.141.64.128/28'],no
+US Gov Arizona,Webapp,52.244.37.5/32,usgovarizona,['52.244.37.5/32'],no
+US Gov Arizona,SCC relay (if SCC is enabled),tunnel.usgovarizona.databricks.azure.us,usgovarizona,['52.244.38.231/32'],no
+US Gov Arizona,Control Plane NAT (if SCC is disabled),20.140.48.120/32,usgovarizona,['20.140.48.120/32'],no
+US Gov Arizona,Extended infrastructure,Extended infrastructure is not supported in US Gov regions,usgovarizona,[],n/a
+US Gov Virginia,Webapp,52.227.227.164/32,usgovvirginia,['52.227.227.164/32'],no
+US Gov Virginia,SCC relay (if SCC is enabled),tunnel.usgovvirginia.databricks.azure.us,usgovvirginia,['52.227.226.255/32'],no
+US Gov Virginia,Control Plane NAT (if SCC is disabled),52.127.49.73/32,usgovvirginia,['52.127.49.73/32'],no
+US Gov Virginia,Extended infrastructure,Extended infrastructure is not supported in US Gov regions,usgovvirginia,[],n/a
+West Central US,Webapp,52.150.136.68/32,westcentralus,['52.150.136.68/32'],yes
+West Central US,SCC relay (if SCC is enabled),tunnel.westcentralus.azuredatabricks.net,westcentralus,['52.150.136.70/32'],yes
+West Central US,Control Plane NAT (if SCC is disabled),52.150.136.69/32,westcentralus,['52.150.136.69/32'],yes
+West Central US,Extended infrastructure,52.161.34.0/28,westcentralus,['52.161.34.0/28'],no
+West Europe,Webapp,52.232.19.246/32 and 40.74.30.80/32,westeurope,"['52.232.19.246/32', '40.74.30.80/32']",yes
+West Europe,SCC relay (if SCC is enabled),tunnel.westeurope.azuredatabricks.net and tunnel.westeuropec2.azuredatabricks.net,westeurope,"['23.97.201.41/32', '51.138.96.158/32']",yes
+West Europe,Control Plane NAT (if SCC is disabled),23.100.0.135/32 and 40.74.30.81/32,westeurope,"['23.100.0.135/32', '40.74.30.81/32']",yes
+West Europe,Extended infrastructure,20.73.215.48/28,westeurope,['20.73.215.48/28'],no
+West India,Webapp,104.211.89.81/32,westindia,['104.211.89.81/32'],yes
+West India,SCC relay (if SCC is enabled),tunnel.centralindia.azuredatabricks.net,westindia,['52.172.133.58/32'],yes
+West India,Control Plane NAT (if SCC is disabled),104.211.101.14/32,westindia,['104.211.101.14/32'],yes
+West India,Extended infrastructure,20.193.246.208/28,westindia,['20.193.246.208/28'],no
+West US,Webapp,40.118.174.12/32 and 20.42.129.160/32,westus,"['40.118.174.12/32', '20.42.129.160/32']",yes
+West US,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,westus,['40.86.167.110/32'],yes
+West US,Control Plane NAT (if SCC is disabled),40.83.178.242/32 and 20.42.129.161/32,westus,"['40.83.178.242/32', '20.42.129.161/32']",yes
+West US,Extended infrastructure,13.91.84.96/28,westus,['13.91.84.96/28'],no
+West US 2,Webapp,40.118.174.12/32,westus2,['40.118.174.12/32'],yes
+West US 2,SCC relay (if SCC is enabled),tunnel.westus.azuredatabricks.net,westus2,['40.86.167.110/32'],yes
+West US 2,Control Plane NAT (if SCC is disabled),40.83.178.242/32,westus2,['40.83.178.242/32'],yes
+West US 2,Extended infrastructure,13.91.84.96/28,westus2,['13.91.84.96/28'],no
