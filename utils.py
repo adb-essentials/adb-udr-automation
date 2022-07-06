@@ -22,7 +22,12 @@ def get_az_regions_dict() -> dict:
     az_regions_df = pd.DataFrame(stdout_az_regions)
     az_region_dict = az_regions_df.set_index('azregion_humanread')[
         'azregion_terraform'].to_dict()
-
+    # add some manual edits 
+    az_region_dict['US Gov Virginia'] = 'usgovvirginia'
+    az_region_dict['US Gov Arizona'] = 'usgovarizona'
+    az_region_dict['China East 2'] = 'chinaeast2'
+    az_region_dict['China North 2'] = 'chinanorth2'
+    
     return az_region_dict
 
 def get_srvc_tag_cidrs():
@@ -100,14 +105,16 @@ def fuzzy_name_matcher(region_scraped: str, region_cli_dict: dict) -> str:
     best_match = None
     max_score = 0
 
-    for reg in cli_region_vals:
-        test_score = rapidfuzz.fuzz.ratio(region_scraped, reg)
-        # china regions operated by 21vianet
-        if "china" in str(region_scraped).lower():
-            return None
-        else:
+    try:
+        best_match = region_cli_dict[region_scraped]
+            
+    except:
+        for reg in cli_region_vals:
+            test_score = rapidfuzz.fuzz.ratio(region_scraped, reg)
+            # china regions operated by 21vianet
             if test_score >= max_score:
                 # update max val and best match
                 max_score = test_score
                 best_match = region_cli_dict[reg]
+    
     return best_match

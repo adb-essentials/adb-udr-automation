@@ -1,196 +1,196 @@
-region,attribute,value,az_region_to_deploy_fuzzy_match,whitelistips
-Australia Central,Metastore,consolidated-australiacentral-prod-metastore.mysql.database.azure.com,australiacentral,['20.36.105.0']
-Australia Central,Artifact Blob storage primary,dbartifactsprodaustc.blob.core.windows.net,australiacentral,['52.239.216.36']
-Australia Central,Artifact Blob storage secondary,dbartifactsprodaustc2.blob.core.windows.net,australiacentral,['52.239.218.4']
-Australia Central,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiacentral,['52.239.226.68']
-Australia Central,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiacentral,['13.70.72.2']
-Australia Central 2,Metastore,consolidated-australiacentral2-prod-metastore.mysql.database.azure.com,australiacentral2,['20.36.113.0']
-Australia Central 2,Artifact Blob storage primary,dbartifactsprodaustc2.blob.core.windows.net,australiacentral2,['52.239.218.4']
-Australia Central 2,Artifact Blob storage secondary,dbartifactsprodaustc.blob.core.windows.net,australiacentral2,['52.239.216.36']
-Australia Central 2,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiacentral2,['52.239.226.68']
-Australia Central 2,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiacentral2,['13.70.72.2']
-Australia East,Metastore,,australiaeast,[]
-Australia East,Artifact Blob storage primary,,australiaeast,[]
-Australia East,Artifact Blob storage secondary,dbartifactsprodaustse.blob.core.windows.net,australiaeast,['52.239.132.164']
-Australia East,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiaeast,['52.239.226.68']
-Australia East,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiaeast,['13.70.72.2']
-Australia Southeast,Metastore,consolidated-australiasoutheast-prod-metastore.mysql.database.azure.com,australiasoutheast,['13.73.109.251']
-Australia Southeast,Artifact Blob storage primary,dbartifactsprodaustse.blob.core.windows.net,australiasoutheast,['52.239.132.164']
-Australia Southeast,Artifact Blob storage secondary,dbartifactsprodauste.blob.core.windows.net,australiasoutheast,['52.239.131.36']
-Australia Southeast,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiasoutheast,['52.239.226.68']
-Australia Southeast,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiasoutheast,['13.70.72.2']
-Brazil South,Metastore,consolidated-brazilsouth-prod-metastore.mysql.database.azure.com,brazilsouth,['191.233.201.8']
-Brazil South,Artifact Blob storage primary,dbartifactsprodbrazilsou.blob.core.windows.net,brazilsouth,['20.60.37.33']
-Brazil South,Artifact Blob storage secondary,dbartifactsprodsafrican.blob.core.windows.net,brazilsouth,['52.239.232.68']
-Brazil South,Log Blob storage,dblogprodbrazilsou.blob.core.windows.net.,brazilsouth,['191.233.128.10']
-Brazil South,Event Hub endpoint,prod-brazilsouth-observabilityeventhubs.servicebus.windows.net,brazilsouth,['191.233.203.0']
-Canada Central,Metastore,consolidated-canadacentral-prod-metastore.mysql.database.azure.com,canadacentral,['13.71.168.32']
-Canada Central,Artifact Blob storage primary,dbartifactsprodcacentral.blob.core.windows.net,canadacentral,['20.150.16.132']
-Canada Central,Artifact Blob storage secondary,dbartifactsprodcaeast.blob.core.windows.net,canadacentral,['20.150.113.36']
-Canada Central,Log Blob storage,dblogprodcacentral.blob.core.windows.net,canadacentral,['20.150.16.132']
-Canada Central,Event Hub endpoint,prod-canadacentral-observabilityeventhubs.servicebus.windows.net,canadacentral,['13.71.170.16']
-Canada East,Metastore,consolidated-canadaeast-prod-metastore.mysql.database.azure.com,canadaeast,['40.86.226.166']
-Canada East,Artifact Blob storage primary,dbartifactsprodcaeast.blob.core.windows.net,canadaeast,['20.150.113.36']
-Canada East,Artifact Blob storage secondary,dbartifactsprodcacentral.blob.core.windows.net,canadaeast,['20.150.16.132']
-Canada East,Log Blob storage,dblogprodcacentral.blob.core.windows.net,canadaeast,['20.150.16.132']
-Canada East,Event Hub endpoint,prod-canadacentral-observabilityeventhubs.servicebus.windows.net,canadaeast,['13.71.170.16']
-Central India,Metastore,consolidated-centralindia-prod-metastore.mysql.database.azure.com,centralindia,['104.211.96.159']
-Central India,Artifact Blob storage primary,dbartifactsprodcindia.blob.core.windows.net,centralindia,['104.211.109.52']
-Central India,Artifact Blob storage secondary,dbartifactsprodwindia.blob.core.windows.net,centralindia,['52.239.135.234']
-Central India,Log Blob storage,dblogprodcindia.blob.core.windows.net,centralindia,['52.239.202.68']
-Central India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,centralindia,['104.211.98.185']
-Central US,Metastore,,centralus,[]
-Central US,Artifact Blob storage primary,,centralus,[]
-Central US,Artifact Blob storage secondary,dbartifactsprodscus.blob.core.windows.net,centralus,['20.38.104.100']
-Central US,Log Blob storage,,centralus,[]
-Central US,Event Hub endpoint,,centralus,[]
-China East 2,Metastore,consolidated-chinaeast2-prod-metastore-0.mysql.database.chinacloudapi.cn,,['40.73.82.1']
-China East 2,Artifact Blob storage primary,dbartifactsprodcne2.blob.core.chinacloudapi.cn,,['40.73.81.68']
-China East 2,Artifact Blob storage secondary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn,,['40.73.48.4']
-China East 2,Log Blob storage,dblogprodchinaeast2.blob.core.chinacloudapi.cn,,['40.73.85.36']
-China East 2,Event Hub endpoint,prod-chinaeast2-observabilityeventhubs.servicebus.chinacloudapi.cn,,['40.73.168.36']
-China North 2,Metastore,consolidated-chinanorth2-prod-metastore-0.mysql.database.chinacloudapi.cn,,['40.73.50.0']
-China North 2,Artifact Blob storage primary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn,,['40.73.48.4']
-China North 2,Artifact Blob storage secondary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn (identical to primary),,[]
-China North 2,Log Blob storage,dblogprodchinanorth2.blob.core.chinacloudapi.cn,,['40.73.48.100']
-China North 2,Event Hub endpoint,prod-chinanorth2-observabilityeventhubs.servicebus.chinacloudapi.cn,,['40.73.136.34']
-East Asia,Metastore,consolidated-eastasia-prod-metastore.mysql.database.azure.com,eastasia,['13.75.33.21']
-East Asia,Artifact Blob storage primary,dbartifactsprodeap.blob.core.windows.net,eastasia,['52.175.112.16']
-East Asia,Artifact Blob storage secondary,dbartifactsprodseap.blob.core.windows.net,eastasia,"['52.239.197.100', '52.239.129.196', '52.239.129.68']"
-East Asia,Log Blob storage,dblogprodseasia.blob.core.windows.net,eastasia,"['20.150.86.36', '20.150.86.4', '20.150.86.100']"
-East Asia,Event Hub endpoint,prod-southeastasia-observabilityeventhubs.servicebus.windows.net,eastasia,['40.78.234.0']
-East US,Metastore,,eastus,[]
-East US,Artifact Blob storage primary,,eastus,[]
-East US,Artifact Blob storage secondary,dbartifactsprodeastus2.blob.core.windows.net,eastus,['13.77.115.36']
-East US,Log Blob storage,,eastus,[]
-East US,Event Hub endpoint,,eastus,[]
-East US 2,Metastore,,eastus2,[]
-East US 2,Artifact Blob storage primary,,eastus2,[]
-East US 2,Artifact Blob storage secondary,dbartifactsprodeastus.blob.core.windows.net,eastus2,"['20.60.7.4', '20.150.90.100', '20.60.7.36']"
-East US 2,Log Blob storage,,eastus2,[]
-East US 2,Event Hub endpoint,,eastus2,[]
-France Central,Metastore,consolidated-francecentral-prod-metastore.mysql.database.azure.com,francecentral,['40.79.129.1']
-France Central,Artifact Blob storage primary,dbartifactsprodfrcentral.blob.core.windows.net,francecentral,"['52.239.134.36', '52.239.194.68', '52.239.194.4']"
-France Central,Artifact Blob storage secondary,dbartifactsprodukwest.blob.core.windows.net,francecentral,['51.141.128.100']
-France Central,Log Blob storage,dblogprodfrcentral.blob.core.windows.net,francecentral,"['52.239.134.36', '52.239.194.68', '52.239.194.4']"
-France Central,Event Hub endpoint,prod-francecentral-observabilityeventhubs.servicebus.windows.net,francecentral,['40.79.130.18']
-Germany West Central,Metastore,consolidated-germanywestcentral-prod-metastore-0.mysql.database.azure.com,germanywestcentral,['51.116.152.0']
-Germany West Central,Artifact Blob storage primary,dbartifactsprodgerwescen.blob.core.windows.net,germanywestcentral,['20.38.118.228']
-Germany West Central,Artifact Blob storage secondary,dbartifactsprodswissnor.blob.core.windows.net,germanywestcentral,['52.239.251.68']
-Germany West Central,Log Blob storage,dblogprodgerwescen.blob.core.windows.net,germanywestcentral,['20.38.118.132']
-Germany West Central,Event Hub endpoint,prod-germanywestcentral-observabilityEventHubs.servicebus.windows.net,germanywestcentral,['51.116.154.198']
-Japan East,Metastore,consolidated-japaneast-prod-metastore.mysql.database.azure.com,japaneast,['40.79.192.23']
-Japan East,Artifact Blob storage primary,dbartifactsprodjapaneast.blob.core.windows.net,japaneast,"['52.239.145.132', '20.38.116.36', '52.239.145.100']"
-Japan East,Artifact Blob storage secondary,dbartifactsprodjapanwest.blob.core.windows.net,japaneast,['52.239.147.132']
-Japan East,Log Blob storage,dblogprodjapaneast.blob.core.windows.net,japaneast,"['20.38.117.228', '20.150.85.36', '20.150.85.4']"
-Japan East,Event Hub endpoint,prod-japaneast-observabilityeventhubs.servicebus.windows.net,japaneast,['13.78.106.65']
-Japan West,Metastore,consolidated-japanwest-prod-metastore.mysql.database.azure.com,japanwest,['40.74.96.6']
-Japan West,Artifact Blob storage primary,dbartifactsprodjapanwest.blob.core.windows.net,japanwest,['52.239.147.132']
-Japan West,Artifact Blob storage secondary,dbartifactsprodjapaneast.blob.core.windows.net,japanwest,"['52.239.145.132', '20.38.116.36', '52.239.145.100']"
-Japan West,Log Blob storage,dblogprodjapaneast.blob.core.windows.net,japanwest,"['20.38.117.228', '20.150.85.36', '20.150.85.4']"
-Japan West,Event Hub endpoint,prod-japaneast-observabilityeventhubs.servicebus.windows.net,japanwest,['13.78.106.65']
-Korea Central,Metastore,consolidated-koreacentral-prod-metastore.mysql.database.azure.com,koreacentral,['52.231.17.13']
-Korea Central,Artifact Blob storage primary,dbartifactsprodkoreacen.blob.core.windows.net,koreacentral,['20.150.4.36']
-Korea Central,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,koreacentral,['52.238.56.180']
-Korea Central,Log Blob storage,dblogprodkoreacen.blob.core.windows.net,koreacentral,[]
-Korea Central,Event Hub endpoint,prod-koreacentral-observabilityeventhubs.servicebus.windows.net,koreacentral,['52.231.18.16']
-North Central US,Metastore,,northcentralus,[]
-North Central US,Artifact Blob storage primary,dbartifactsprodncus.blob.core.windows.net,northcentralus,['52.239.186.196']
-North Central US,Artifact Blob storage secondary,dbartifactsprodcus.blob.core.windows.net,northcentralus,"['20.150.89.100', '20.150.77.228', '20.150.77.164']"
-North Central US,Log Blob storage,,northcentralus,[]
-North Central US,Event Hub endpoint,,northcentralus,[]
-North Europe,Metastore,,northeurope,[]
-North Europe,Artifact Blob storage primary,,northeurope,[]
-North Europe,Artifact Blob storage secondary,dbartifactsprodwesteu.blob.core.windows.net,northeurope,['52.239.242.196']
-North Europe,Log Blob storage,dblogprodwesteurope.blob.core.windows.net,northeurope,['52.239.141.36']
-North Europe,Event Hub endpoint,,northeurope,[]
-Norway East,Metastore,consolidated-norwayeast-prod-metastore-0.mysql.database.azure.com,norwayeast,['51.120.96.0']
-Norway East,Artifact Blob storage primary,dbartifactsprodnweast.blob.core.windows.net,norwayeast,['20.38.120.36']
-Norway East,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,norwayeast,['52.238.56.180']
-Norway East,Log Blob storage,dblogprodnweast.blob.core.windows.net,norwayeast,['20.38.120.36']
-Norway East,Event Hub endpoint,prod-norwayeast-observabilityEventHubs.servicebus.windows.net,norwayeast,['51.120.98.128']
-South Africa North,Metastore,consolidated-southafricanorth-prod-metastore.mysql.database.azure.com,southafricanorth,['102.133.152.0']
-South Africa North,Artifact Blob storage primary,dbartifactsprodsafrican.blob.core.windows.net,southafricanorth,['52.239.232.68']
-South Africa North,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,southafricanorth,['52.238.56.180']
-South Africa North,Log Blob storage,dblogprodsafrican.blob.core.windows.net,southafricanorth,['52.239.232.36']
-South Africa North,Event Hub endpoint,prod-southafricanorth-observabilityeventhubs.servicebus.windows.net,southafricanorth,['102.133.154.131']
-South Central US,Metastore,,southcentralus,[]
-South Central US,Artifact Blob storage primary,,southcentralus,[]
-South Central US,Artifact Blob storage secondary,dbartifactsprodncus.blob.core.windows.net.,southcentralus,['52.239.186.196']
-South Central US,Log Blob storage,,southcentralus,[]
-South Central US,Event Hub endpoint,,southcentralus,[]
-South India,Metastore,consolidated-southindia-prod-metastore.mysql.database.azure.com,southindia,['104.211.224.146']
-South India,Artifact Blob storage primary,dbartifactsprodsindia.blob.core.windows.net,southindia,['104.211.232.16']
-South India,Artifact Blob storage secondary,dbartifactsprodcindia.blob.core.windows.net,southindia,['104.211.109.52']
-South India,Log Blob storage,dblogprodcindia.blob.core.windows.net,southindia,['52.239.202.68']
-South India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,southindia,['104.211.98.185']
-Southeast Asia,Metastore,,southeastasia,[]
-Southeast Asia,Artifact Blob storage primary,,southeastasia,[]
-Southeast Asia,Artifact Blob storage secondary,dbartifactsprodeap.blob.core.windows.net,southeastasia,['52.175.112.16']
-Southeast Asia,Log Blob storage,dblogprodseasia.blob.core.windows.net,southeastasia,"['20.150.86.36', '20.150.86.4', '20.150.86.100']"
-Southeast Asia,Event Hub endpoint,prod-southeastasia-observabilityeventhubs.servicebus.windows.net,southeastasia,['40.78.234.0']
-Sweden Central,Metastore,consolidated-swedencentral-prod-metastore-0.mysql.database.azure.com,swedencentral,['51.12.96.32']
-Sweden Central,Artifact Blob storage primary,dbartifactsprodswdncntr.blob.core.windows.net,swedencentral,['20.60.234.4']
-Sweden Central,Artifact Blob storage secondary,dbartifactsprodnweast.blob.core.windows.net,swedencentral,['20.38.120.36']
-Sweden Central,Log Blob storage,dblogprodswdncntr.blob.core.windows.net,swedencentral,['20.60.78.100']
-Sweden Central,Event Hub endpoint,prod-swedencentral-observabilityeventhubs.servicebus.windows.net,swedencentral,['51.12.98.160']
-Switzerland North,Metastore,consolidated-switzerlandnorth-prod-metastore-0.mysql.database.azure.com,switzerlandnorth,['51.107.56.0']
-Switzerland North,Artifact Blob storage primary,dbartifactsprodswissnor.blob.core.windows.net,switzerlandnorth,['52.239.251.68']
-Switzerland North,Artifact Blob storage secondary,dbartifactsprodwesteu.blob.core.windows.net,switzerlandnorth,['52.239.242.196']
-Switzerland North,Log Blob storage,dblogprodswissnor.blob.core.windows.net,switzerlandnorth,['52.239.251.68']
-Switzerland North,Event Hub endpoint,prod-switzerlandnorth-observabilityeventhubs.servicebus.windows.net,switzerlandnorth,['51.107.58.128']
-Switzerland North,Metastore,,switzerlandnorth,[]
-Switzerland North,Artifact Blob storage primary,dbartifactsprodswisswest.blob.core.windows.net,switzerlandnorth,['52.239.250.4']
-Switzerland North,Artifact Blob storage secondary,dbartifactsprodswissnor.blob.core.windows.net,switzerlandnorth,['52.239.251.68']
-Switzerland North,Log Blob storage,dblogprodswisswest.blob.core.windows.net,switzerlandnorth,['52.239.250.4']
-Switzerland North,Event Hub endpoint,prod-switzerlandwest-observabilityeventhubs.servicebus.windows.net,switzerlandnorth,['51.107.154.128']
-UAE North,Metastore,consolidated-uaenorth-prod-metastore.mysql.database.azure.com,uaenorth,['65.52.248.0']
-UAE North,Artifact Blob storage primary,dbartifactsproduaenorth.blob.core.windows.net,uaenorth,['52.239.233.228']
-UAE North,Artifact Blob storage secondary,dbartifactsprodsafrican.blob.core.windows.net,uaenorth,['52.239.232.68']
-UAE North,Log Blob storage,dblogproduaenorth.blob.core.windows.net,uaenorth,['52.239.233.228']
-UAE North,Event Hub endpoint,prod-uaenorth-observabilityeventhubs.servicebus.windows.net,uaenorth,['65.52.250.32']
-UK South,Metastore,,uksouth,[]
-UK South,Artifact Blob storage primary,dbartifactsproduksouth.blob.core.windows.net,uksouth,"['20.38.106.100', '52.239.231.228', '20.38.106.132']"
-UK South,Artifact Blob storage secondary,dbartifactsprodukwest.blob.core.windows.net,uksouth,['51.141.128.100']
-UK South,Log Blob storage,dblogprodukwest.blob.core.windows.net,uksouth,['20.150.3.228']
-UK South,Event Hub endpoint,prod-ukwest-observabilityeventhubs.servicebus.windows.net,uksouth,['51.140.210.34']
-UK West,Metastore,consolidated-ukwest-prod-metastore.mysql.database.azure.com,ukwest,['51.141.8.11']
-UK West,Artifact Blob storage primary,dbartifactsprodukwest.blob.core.windows.net,ukwest,['51.141.128.100']
-UK West,Artifact Blob storage secondary,dbartifactsproduksouth.blob.core.windows.net,ukwest,"['20.38.106.100', '52.239.231.228', '20.38.106.132']"
-UK West,Log Blob storage,dblogprodukwest.blob.core.windows.net,ukwest,['20.150.3.228']
-UK West,Event Hub endpoint,prod-ukwest-observabilityeventhubs.servicebus.windows.net,ukwest,['51.140.210.34']
-US Gov Arizona,Metastore,consolidated-usgovarizona-prod-metastore-0.mysql.database.usgovcloudapi.net,southafrica,['52.244.48.33']
-US Gov Arizona,Artifact Blob storage primary,dbartifactsprodusgariz.blob.core.usgovcloudapi.net,southafrica,['52.239.166.10']
-US Gov Arizona,Artifact Blob storage secondary,dbartifactsprodusgvirg.blob.core.usgovcloudapi.net,southafrica,['52.126.192.196']
-US Gov Arizona,Log Blob storage,dblogprodusgovvirg.blob.core.usgovcloudapi.net,southafrica,['52.227.128.46']
-US Gov Arizona,Event Hub endpoint,prod-usgovarizona-observabilityeventhubs.servicebus.usgovcloudapi.net,southafrica,['52.244.48.85']
-US Gov Virginia,Metastore,consolidated-usgovvirginia-prod-metastore.mysql.database.usgovcloudapi.net,southindia,['13.72.48.140']
-US Gov Virginia,Artifact Blob storage primary,dbartifactsprodusgvirg.blob.core.usgovcloudapi.net,southindia,['52.126.192.196']
-US Gov Virginia,Artifact Blob storage secondary,dbartifactsprodusgariz.blob.core.usgovcloudapi.net,southindia,['52.239.166.10']
-US Gov Virginia,Log Blob storage,dblogprodusgovvirg.blob.core.usgovcloudapi.net,southindia,['52.227.128.46']
-US Gov Virginia,Event Hub endpoint,prod-usgovvirginia-observabilityeventhubs.servicebus.usgovcloudapi.net,southindia,['23.97.0.197']
-West Central US,Metastore,consolidated-westcentralus-prod-metastore-0.mysql.database.azure.com,westcentralus,['13.78.145.25']
-West Central US,Artifact Blob storage primary,dbartifactsprodwcentus.blob.core.windows.net,westcentralus,['13.71.200.96']
-West Central US,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,westcentralus,['52.238.56.180']
-West Central US,Log Blob storage,dblogprodwcentus.blob.core.windows.net,westcentralus,['20.150.81.4']
-West Central US,Event Hub endpoint,prod-westcentralus-observabilityeventhubs.servicebus.windows.net,westcentralus,['13.71.194.80']
-West Europe,Metastore,,westeurope,[]
-West Europe,Artifact Blob storage primary,,westeurope,[]
-West Europe,Artifact Blob storage secondary,dbartifactsprodnortheu.blob.core.windows.net,westeurope,"['52.239.137.36', '52.245.40.100', '52.239.137.164']"
-West Europe,Log Blob storage,dblogprodwesteurope.blob.core.windows.net,westeurope,['52.239.141.36']
-West Europe,Event Hub endpoint,,westeurope,[]
-West India,Metastore,consolidated-westindia-prod-metastore.mysql.database.azure.com,westindia,['104.211.160.80']
-West India,Artifact Blob storage primary,dbartifactsprodwindia.blob.core.windows.net,westindia,['52.239.135.234']
-West India,Artifact Blob storage secondary,dbartifactsprodsindia.blob.core.windows.net,westindia,['104.211.232.16']
-West India,Log Blob storage,dblogprodcindia.blob.core.windows.net,westindia,['52.239.202.68']
-West India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,westindia,['104.211.98.185']
-West US,Metastore,,westus,[]
-West US,Artifact Blob storage primary,,westus,[]
-West US,Artifact Blob storage secondary,dbartifactsprodwestus2.blob.core.windows.net,westus,"['20.150.78.100', '20.150.78.164', '20.150.78.36']"
-West US,Log Blob storage,dblogprodwestus.blob.core.windows.net,westus,['52.239.229.100']
-West US,Event Hub endpoint,,westus,[]
-West US 2,Metastore,,westus2,[]
-West US 2,Artifact Blob storage primary,,westus2,[]
-West US 2,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,westus2,['52.238.56.180']
-West US 2,Log Blob storage,,westus2,[]
-West US 2,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net,westus2,['40.112.242.0']
+region,attribute,value,az_region_to_deploy_fuzzy_match,whitelistips,is_in_service_tag
+Australia Central,Metastore,consolidated-australiacentral-prod-metastore.mysql.database.azure.com,australiacentral,['20.36.105.0/32'],no
+Australia Central,Artifact Blob storage primary,dbartifactsprodaustc.blob.core.windows.net,australiacentral,['52.239.216.36/32'],no
+Australia Central,Artifact Blob storage secondary,dbartifactsprodaustc2.blob.core.windows.net,australiacentral,['52.239.218.4/32'],no
+Australia Central,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiacentral,['52.239.226.68/32'],no
+Australia Central,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiacentral,['13.70.72.2/32'],no
+Australia Central 2,Metastore,consolidated-australiacentral2-prod-metastore.mysql.database.azure.com,australiacentral2,['20.36.113.0/32'],no
+Australia Central 2,Artifact Blob storage primary,dbartifactsprodaustc2.blob.core.windows.net,australiacentral2,['52.239.218.4/32'],no
+Australia Central 2,Artifact Blob storage secondary,dbartifactsprodaustc.blob.core.windows.net,australiacentral2,['52.239.216.36/32'],no
+Australia Central 2,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiacentral2,['52.239.226.68/32'],no
+Australia Central 2,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiacentral2,['13.70.72.2/32'],no
+Australia East,Metastore,consolidated-australiaeast-prod-metastore.mysql.database.azure.com and consolidated-australiaeast-prod-metastore-addl-1.mysql.database.azure.com,australiaeast,"['40.79.161.1/32', '13.75.149.87/32']",no
+Australia East,Artifact Blob storage primary,dbartifactsprodauste.blob.core.windows.net and arprodaustea1.blob.core.windows.net and arprodaustea2.blob.core.windows.net and arprodaustea3.blob.core.windows.net and arprodaustea4.blob.core.windows.net and arprodaustea5.blob.core.windows.net and arprodaustea6.blob.core.windows.net and arprodaustea7.blob.core.windows.net and arprodaustea8.blob.core.windows.net and arprodaustea9.blob.core.windows.net and arprodaustea10.blob.core.windows.net and arprodaustea11.blob.core.windows.net and arprodaustea12.blob.core.windows.net and arprodaustea13.blob.core.windows.net and arprodaustea14.blob.core.windows.net and arprodaustea15.blob.core.windows.net,australiaeast,"['20.150.66.4/32', '20.60.72.36/32', '52.239.130.74/32', '52.239.131.36/32', '20.150.92.132/32', '52.239.226.68/32']",no
+Australia East,Artifact Blob storage secondary,dbartifactsprodaustse.blob.core.windows.net,australiaeast,['52.239.132.164/32'],no
+Australia East,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiaeast,['52.239.226.68/32'],no
+Australia East,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiaeast,['13.70.72.2/32'],no
+Australia Southeast,Metastore,consolidated-australiasoutheast-prod-metastore.mysql.database.azure.com,australiasoutheast,['13.73.109.251/32'],no
+Australia Southeast,Artifact Blob storage primary,dbartifactsprodaustse.blob.core.windows.net,australiasoutheast,['52.239.132.164/32'],no
+Australia Southeast,Artifact Blob storage secondary,dbartifactsprodauste.blob.core.windows.net,australiasoutheast,['52.239.131.36/32'],no
+Australia Southeast,Log Blob storage,dblogprodausteast.blob.core.windows.net,australiasoutheast,['52.239.226.68/32'],no
+Australia Southeast,Event Hub endpoint,prod-australiaeast-observabilityeventhubs.servicebus.windows.net,australiasoutheast,['13.70.72.2/32'],no
+Brazil South,Metastore,consolidated-brazilsouth-prod-metastore.mysql.database.azure.com,brazilsouth,['191.233.201.8/32'],no
+Brazil South,Artifact Blob storage primary,dbartifactsprodbrazilsou.blob.core.windows.net,brazilsouth,['20.60.37.33/32'],no
+Brazil South,Artifact Blob storage secondary,dbartifactsprodsafrican.blob.core.windows.net,brazilsouth,['52.239.232.36/32'],no
+Brazil South,Log Blob storage,dblogprodbrazilsou.blob.core.windows.net.,brazilsouth,['191.233.128.10/32'],no
+Brazil South,Event Hub endpoint,prod-brazilsouth-observabilityeventhubs.servicebus.windows.net,brazilsouth,['191.233.203.0/32'],no
+Canada Central,Metastore,consolidated-canadacentral-prod-metastore.mysql.database.azure.com,canadacentral,['13.71.168.32/32'],no
+Canada Central,Artifact Blob storage primary,dbartifactsprodcacentral.blob.core.windows.net,canadacentral,['20.150.16.132/32'],no
+Canada Central,Artifact Blob storage secondary,dbartifactsprodcaeast.blob.core.windows.net,canadacentral,['20.150.113.36/32'],no
+Canada Central,Log Blob storage,dblogprodcacentral.blob.core.windows.net,canadacentral,['20.150.16.132/32'],no
+Canada Central,Event Hub endpoint,prod-canadacentral-observabilityeventhubs.servicebus.windows.net,canadacentral,['13.71.170.16/32'],no
+Canada East,Metastore,consolidated-canadaeast-prod-metastore.mysql.database.azure.com,canadaeast,['40.86.226.166/32'],no
+Canada East,Artifact Blob storage primary,dbartifactsprodcaeast.blob.core.windows.net,canadaeast,['20.150.113.36/32'],no
+Canada East,Artifact Blob storage secondary,dbartifactsprodcacentral.blob.core.windows.net,canadaeast,['20.150.16.132/32'],no
+Canada East,Log Blob storage,dblogprodcacentral.blob.core.windows.net,canadaeast,['20.150.16.132/32'],no
+Canada East,Event Hub endpoint,prod-canadacentral-observabilityeventhubs.servicebus.windows.net,canadaeast,['13.71.170.16/32'],no
+Central India,Metastore,consolidated-centralindia-prod-metastore.mysql.database.azure.com,centralindia,['104.211.96.159/32'],no
+Central India,Artifact Blob storage primary,dbartifactsprodcindia.blob.core.windows.net,centralindia,['104.211.109.52/32'],no
+Central India,Artifact Blob storage secondary,dbartifactsprodwindia.blob.core.windows.net,centralindia,['52.239.135.234/32'],no
+Central India,Log Blob storage,dblogprodcindia.blob.core.windows.net,centralindia,['20.38.126.228/32'],no
+Central India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,centralindia,['104.211.98.185/32'],no
+Central US,Metastore,consolidated-centralus-prod-metastore.mysql.database.azure.com and consolidated-centralus-prod-metastore-addl-1.mysql.database.azure.com and consolidated-centralus-prod-metastore-addl-2.mysql.database.azure.com and consolidated-centralus-prod-metastore-addl-3.mysql.database.azure.com and consolidated-centralusc2-prod-metastore-0.mysql.database.azure.com and consolidated-centralusc2-prod-metastore-1.mysql.database.azure.com and consolidated-centralusc2-prod-metastore-2.mysql.database.azure.com and consolidated-centralusc2-prod-metastore-3.mysql.database.azure.com,centralus,"['52.182.136.37/32', '52.182.136.38/32']",no
+Central US,Artifact Blob storage primary,dbartifactsprodcus.blob.core.windows.net and arprodcusa1.blob.core.windows.net and arprodcusa2.blob.core.windows.net and arprodcusa3.blob.core.windows.net and arprodcusa4.blob.core.windows.net and arprodcusa5.blob.core.windows.net and arprodcusa6.blob.core.windows.net,centralus,"['20.150.77.228/32', '20.60.18.68/32', '20.150.77.164/32', '52.239.177.100/32', '20.60.244.163/32', '20.150.89.100/32', '20.150.95.132/32', '20.150.95.196/32', '20.60.240.65/32']",no
+Central US,Artifact Blob storage secondary,dbartifactsprodscus.blob.core.windows.net,centralus,['20.38.104.100/32'],no
+Central US,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodcentralus.blob.core.windows.net,centralus,"['52.239.177.164/32', '52.239.177.132/32', '52.239.229.100/32', '20.60.178.228/32']",no
+Central US,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-centralusc2-observabilityeventhubs.servicebus.windows.net,centralus,"['40.112.242.0/32', '52.182.138.142/32']",no
+China East 2,Metastore,consolidated-chinaeast2-prod-metastore-0.mysql.database.chinacloudapi.cn,chinaeast2,['40.73.82.1/32'],no
+China East 2,Artifact Blob storage primary,dbartifactsprodcne2.blob.core.chinacloudapi.cn,chinaeast2,['40.73.81.68/32'],no
+China East 2,Artifact Blob storage secondary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn,chinaeast2,['40.73.48.4/32'],no
+China East 2,Log Blob storage,dblogprodchinaeast2.blob.core.chinacloudapi.cn,chinaeast2,['40.73.85.36/32'],no
+China East 2,Event Hub endpoint,prod-chinaeast2-observabilityeventhubs.servicebus.chinacloudapi.cn,chinaeast2,['40.73.168.36/32'],no
+China North 2,Metastore,consolidated-chinanorth2-prod-metastore-0.mysql.database.chinacloudapi.cn,chinanorth2,['40.73.50.0/32'],no
+China North 2,Artifact Blob storage primary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn,chinanorth2,['40.73.48.4/32'],no
+China North 2,Artifact Blob storage secondary,dbartifactsprodcnn2.blob.core.chinacloudapi.cn (identical to primary),chinanorth2,[],n/a
+China North 2,Log Blob storage,dblogprodchinanorth2.blob.core.chinacloudapi.cn,chinanorth2,['40.73.48.100/32'],no
+China North 2,Event Hub endpoint,prod-chinanorth2-observabilityeventhubs.servicebus.chinacloudapi.cn,chinanorth2,['40.73.136.34/32'],no
+East Asia,Metastore,consolidated-eastasia-prod-metastore.mysql.database.azure.com,eastasia,['13.75.33.21/32'],no
+East Asia,Artifact Blob storage primary,dbartifactsprodeap.blob.core.windows.net,eastasia,['52.175.112.16/32'],no
+East Asia,Artifact Blob storage secondary,dbartifactsprodseap.blob.core.windows.net,eastasia,"['52.239.197.100/32', '52.239.129.68/32', '52.239.129.196/32']",no
+East Asia,Log Blob storage,dblogprodseasia.blob.core.windows.net,eastasia,"['20.150.86.36/32', '20.150.86.4/32', '20.150.86.100/32']",no
+East Asia,Event Hub endpoint,prod-southeastasia-observabilityeventhubs.servicebus.windows.net,eastasia,['40.78.234.0/32'],no
+East US,Metastore,consolidated-eastus-prod-metastore.mysql.database.azure.com and consolidated-eastus-prod-metastore-addl-1.mysql.database.azure.com and consolidated-eastus-prod-metastore-addl-2.mysql.database.azure.com and consolidated-eastus-prod-metastore-addl-3.mysql.database.azure.com and consolidated-eastus-prod-metastore-addl-4.mysql.database.azure.com and consolidated-eastusc2-prod-metastore-0.mysql.database.azure.com and consolidated-eastusc3-prod-metastore-0.mysql.database.azure.com and consolidated-eastusc3-prod-metastore-1.mysql.database.azure.com and consolidated-eastusc3-prod-metastore-2.mysql.database.azure.com and consolidated-eastusc3-prod-metastore-3.mysql.database.azure.com,eastus,"['40.71.8.203/32', '40.71.83.113/32']",no
+East US,Artifact Blob storage primary,dbartifactsprodeastus.blob.core.windows.net and arprodeastusa1.blob.core.windows.net and arprodeastusa2.blob.core.windows.net and arprodeastusa3.blob.core.windows.net and arprodeastusa4.blob.core.windows.net and arprodeastusa5.blob.core.windows.net and arprodeastusa6.blob.core.windows.net,eastus,"['20.60.7.36/32', '20.209.1.65/32', '20.60.128.228/32', '52.239.155.196/32', '52.239.153.36/32', '52.239.171.228/32', '20.60.7.4/32', '20.150.90.100/32']",no
+East US,Artifact Blob storage secondary,dbartifactsprodeastus2.blob.core.windows.net,eastus,['13.77.115.36/32'],no
+East US,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodeastus.blob.core.windows.net,eastus,"['52.239.229.100/32', '52.239.171.4/32', '20.150.90.4/32', '52.239.170.164/32']",no
+East US,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-eastusc2-observabilityeventhubs.servicebus.windows.net and prod-eastusc3-observabilityeventhubs.servicebus.windows.net,eastus,"['40.112.242.0/32', '40.71.10.128/32']",no
+East US 2,Metastore,consolidated-eastus2-prod-metastore.mysql.database.azure.com and consolidated-eastus2-prod-metastore-addl-1.mysql.database.azure.com and consolidated-eastus2-prod-metastore-addl-2.mysql.database.azure.com and consolidated-eastus2-prod-metastore-addl-3.mysql.database.azure.com and consolidated-eastus2c2-prod-metastore-0.mysql.database.azure.com and consolidated-eastus2c2-prod-metastore-1.mysql.database.azure.com and consolidated-eastus2c2-prod-metastore-2.mysql.database.azure.com and consolidated-eastus2c2-prod-metastore-3.mysql.database.azure.com,eastus2,"['40.70.144.38/32', '52.167.105.38/32']",no
+East US 2,Artifact Blob storage primary,dbartifactsprodeastus2.blob.core.windows.net and arprodeastus2a1.blob.core.windows.net and arprodeastus2a2.blob.core.windows.net and arprodeastus2a3.blob.core.windows.net and arprodeastus2a4.blob.core.windows.net and arprodeastus2a5.blob.core.windows.net and arprodeastus2a6.blob.core.windows.net and arprodeastus2a7.blob.core.windows.net and arprodeastus2a8.blob.core.windows.net and arprodeastus2a9.blob.core.windows.net and arprodeastus2a10.blob.core.windows.net and arprodeastus2a11.blob.core.windows.net and arprodeastus2a12.blob.core.windows.net and arprodeastus2a13.blob.core.windows.net and arprodeastus2a14.blob.core.windows.net and arprodeastus2a15.blob.core.windows.net,eastus2,"['13.77.115.36/32', '52.239.174.4/32', '52.167.88.112/32', '20.60.88.36/32', '20.60.59.69/32', '20.60.89.43/32', '20.150.88.132/32', '52.239.174.132/32', '20.150.29.228/32', '20.60.180.4/32', '52.239.207.100/32', '52.239.174.228/32']",no
+East US 2,Artifact Blob storage secondary,dbartifactsprodeastus.blob.core.windows.net,eastus2,"['20.60.7.36/32', '20.60.7.4/32', '20.150.90.100/32']",no
+East US 2,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodeastus2.blob.core.windows.net,eastus2,"['52.239.229.100/32', '20.60.59.131/32']",no
+East US 2,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-eastus2c2-observabilityeventhubs.servicebus.windows.net,eastus2,"['40.112.242.0/32', '40.70.146.2/32']",no
+France Central,Metastore,consolidated-francecentral-prod-metastore.mysql.database.azure.com,francecentral,['40.79.129.1/32'],no
+France Central,Artifact Blob storage primary,dbartifactsprodfrcentral.blob.core.windows.net,francecentral,"['52.239.194.68/32', '52.239.194.4/32', '52.239.134.36/32']",no
+France Central,Artifact Blob storage secondary,dbartifactsprodukwest.blob.core.windows.net,francecentral,['51.141.128.100/32'],no
+France Central,Log Blob storage,dblogprodfrcentral.blob.core.windows.net,francecentral,"['52.239.194.68/32', '52.239.194.4/32', '52.239.134.36/32']",no
+France Central,Event Hub endpoint,prod-francecentral-observabilityeventhubs.servicebus.windows.net,francecentral,['40.79.130.18/32'],no
+Germany West Central,Metastore,consolidated-germanywestcentral-prod-metastore-0.mysql.database.azure.com,germanywestcentral,['51.116.152.0/32'],no
+Germany West Central,Artifact Blob storage primary,dbartifactsprodgerwescen.blob.core.windows.net,germanywestcentral,['20.38.118.228/32'],no
+Germany West Central,Artifact Blob storage secondary,dbartifactsprodswissnor.blob.core.windows.net,germanywestcentral,['52.239.251.68/32'],no
+Germany West Central,Log Blob storage,dblogprodgerwescen.blob.core.windows.net,germanywestcentral,['20.38.118.132/32'],no
+Germany West Central,Event Hub endpoint,prod-germanywestcentral-observabilityEventHubs.servicebus.windows.net,germanywestcentral,['51.116.154.198/32'],no
+Japan East,Metastore,consolidated-japaneast-prod-metastore.mysql.database.azure.com,japaneast,['40.79.192.23/32'],no
+Japan East,Artifact Blob storage primary,dbartifactsprodjapaneast.blob.core.windows.net,japaneast,"['52.239.145.132/32', '52.239.145.100/32', '20.38.116.36/32']",no
+Japan East,Artifact Blob storage secondary,dbartifactsprodjapanwest.blob.core.windows.net,japaneast,['52.239.147.132/32'],no
+Japan East,Log Blob storage,dblogprodjapaneast.blob.core.windows.net,japaneast,"['20.150.85.36/32', '20.150.85.4/32', '20.38.117.228/32']",no
+Japan East,Event Hub endpoint,prod-japaneast-observabilityeventhubs.servicebus.windows.net,japaneast,['13.78.106.65/32'],no
+Japan West,Metastore,consolidated-japanwest-prod-metastore.mysql.database.azure.com,japanwest,['40.74.96.6/32'],no
+Japan West,Artifact Blob storage primary,dbartifactsprodjapanwest.blob.core.windows.net,japanwest,['52.239.147.132/32'],no
+Japan West,Artifact Blob storage secondary,dbartifactsprodjapaneast.blob.core.windows.net,japanwest,"['52.239.145.132/32', '52.239.145.100/32', '20.38.116.36/32']",no
+Japan West,Log Blob storage,dblogprodjapaneast.blob.core.windows.net,japanwest,"['20.150.85.36/32', '20.150.85.4/32', '20.38.117.228/32']",no
+Japan West,Event Hub endpoint,prod-japaneast-observabilityeventhubs.servicebus.windows.net,japanwest,['13.78.106.65/32'],no
+Korea Central,Metastore,consolidated-koreacentral-prod-metastore.mysql.database.azure.com,koreacentral,['52.231.17.13/32'],no
+Korea Central,Artifact Blob storage primary,dbartifactsprodkoreacen.blob.core.windows.net,koreacentral,['52.239.148.4/32'],no
+Korea Central,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,koreacentral,['52.238.56.180/32'],no
+Korea Central,Log Blob storage,dblogprodkoreacentral.blob.core.windows.net,koreacentral,['52.239.190.132/32'],no
+Korea Central,Event Hub endpoint,prod-koreacentral-observabilityeventhubs.servicebus.windows.net,koreacentral,['52.231.18.16/32'],no
+North Central US,Metastore,consolidated-northcentralus-prod-metastore.mysql.database.azure.com and consolidated-northcentralusc2-prod-metastore-0.mysql.database.azure.com,northcentralus,"['52.162.104.35/32', '52.162.104.36/32']",no
+North Central US,Artifact Blob storage primary,dbartifactsprodncus.blob.core.windows.net,northcentralus,['52.239.186.196/32'],no
+North Central US,Artifact Blob storage secondary,dbartifactsprodcus.blob.core.windows.net,northcentralus,"['20.150.77.164/32', '20.150.77.228/32', '20.150.89.100/32']",no
+North Central US,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodncentralus.blob.core.windows.net,northcentralus,"['52.239.186.36/32', '52.239.229.100/32']",no
+North Central US,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-northcentralusc2-observabilityeventhubs.servicebus.windows.net,northcentralus,"['40.112.242.0/32', '52.162.106.76/32']",no
+North Europe,Metastore,consolidated-northeurope-prod-metastore.mysql.database.azure.com and consolidated-northeurope-prod-metastore-addl-1.mysql.database.azure.com and consolidated-northeurope-prod-metastore-addl-2.mysql.database.azure.com and consolidated-northeurope-prod-metastore-addl-3.mysql.database.azure.com and consolidated-northeuropec2-prod-metastore-0.mysql.database.azure.com and consolidated-northeuropec2-prod-metastore-1.mysql.database.azure.com and consolidated-northeuropec2-prod-metastore-2.mysql.database.azure.com and consolidated-northeuropec2-prod-metastore-3.mysql.database.azure.com,northeurope,"['52.138.224.7/32', '52.138.224.6/32']",no
+North Europe,Artifact Blob storage primary,dbartifactsprodnortheu.blob.core.windows.net and arprodnortheua1.blob.core.windows.net and arprodnortheua2.blob.core.windows.net and arprodnortheua3.blob.core.windows.net and arprodnortheua4.blob.core.windows.net and arprodnortheua5.blob.core.windows.net and arprodnortheua6.blob.core.windows.net,northeurope,"['52.239.205.196/32', '52.239.138.100/32', '52.239.137.36/32', '52.236.40.36/32', '52.245.40.100/32', '20.60.19.36/32', '52.239.138.36/32', '20.150.104.4/32', '52.239.137.164/32']",no
+North Europe,Artifact Blob storage secondary,dbartifactsprodwesteu.blob.core.windows.net,northeurope,['52.239.242.196/32'],no
+North Europe,Log Blob storage,dblogprodwesteurope.blob.core.windows.net,northeurope,['52.239.141.36/32'],no
+North Europe,Event Hub endpoint,prod-westeurope-observabilityeventhubs.servicebus.windows.net and prod-northeuropec2-observabilityeventhubs.servicebus.windows.net,northeurope,"['13.69.64.0/32', '52.169.18.8/32']",no
+Norway East,Metastore,consolidated-norwayeast-prod-metastore-0.mysql.database.azure.com,norwayeast,['51.120.96.0/32'],no
+Norway East,Artifact Blob storage primary,dbartifactsprodnweast.blob.core.windows.net,norwayeast,['20.38.120.36/32'],no
+Norway East,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,norwayeast,['52.238.56.180/32'],no
+Norway East,Log Blob storage,dblogprodnweast.blob.core.windows.net,norwayeast,['20.38.120.36/32'],no
+Norway East,Event Hub endpoint,prod-norwayeast-observabilityEventHubs.servicebus.windows.net,norwayeast,['51.120.98.128/32'],no
+South Africa North,Metastore,consolidated-southafricanorth-prod-metastore.mysql.database.azure.com,southafricanorth,['102.133.152.0/32'],no
+South Africa North,Artifact Blob storage primary,dbartifactsprodsafrican.blob.core.windows.net,southafricanorth,['52.239.232.36/32'],no
+South Africa North,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,southafricanorth,['52.238.56.180/32'],no
+South Africa North,Log Blob storage,dblogprodsafrican.blob.core.windows.net,southafricanorth,['52.239.232.36/32'],no
+South Africa North,Event Hub endpoint,prod-southafricanorth-observabilityeventhubs.servicebus.windows.net,southafricanorth,['102.133.154.131/32'],no
+South Central US,Metastore,consolidated-southcentralus-prod-metastore.mysql.database.azure.com and consolidated-southcentralus-prod-metastore-addl-1.mysql.database.azure.com. and consolidated-southcentralusc2-prod-metastore-addl-1.mysql.database.azure.com,southcentralus,['20.45.120.0/32'],no
+South Central US,Artifact Blob storage primary,dbartifactsprodscus.blob.core.windows.net and arprodscusa1.blob.core.windows.net and arprodscusa2.blob.core.windows.net and arprodscusa3.blob.core.windows.net and arprodscusa4.blob.core.windows.net and arprodscusa5.blob.core.windows.net and arprodscusa6.blob.core.windows.net,southcentralus,"['20.60.149.33/32', '20.38.105.4/32', '20.150.20.132/32', '20.60.49.4/32', '20.150.70.228/32', '20.38.104.100/32']",no
+South Central US,Artifact Blob storage secondary,dbartifactsprodncus.blob.core.windows.net.,southcentralus,['52.239.186.196/32'],no
+South Central US,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodscentralus.blob.core.windows.net,southcentralus,"['52.239.229.100/32', '20.150.38.36/32']",no
+South Central US,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-southcentralusc2-observabilityeventhubs.servicebus.windows.net,southcentralus,"['40.112.242.0/32', '104.210.146.250/32']",no
+South India,Metastore,consolidated-southindia-prod-metastore.mysql.database.azure.com,southindia,['104.211.224.146/32'],no
+South India,Artifact Blob storage primary,dbartifactsprodsindia.blob.core.windows.net,southindia,['104.211.232.16/32'],no
+South India,Artifact Blob storage secondary,dbartifactsprodcindia.blob.core.windows.net,southindia,['104.211.109.52/32'],no
+South India,Log Blob storage,dblogprodcindia.blob.core.windows.net,southindia,['20.38.126.228/32'],no
+South India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,southindia,['104.211.98.185/32'],no
+Southeast Asia,Metastore,consolidated-southeastasia-prod-metastore.mysql.database.azure.com and consolidated-southeastasia-prod-metastore-addl-1.mysql.database.azure.com,southeastasia,['40.78.233.2/32'],no
+Southeast Asia,Artifact Blob storage primary,dbartifactsprodseap.blob.core.windows.net and arprodseapa1.blob.core.windows.net and arprodseapa2.blob.core.windows.net and arprodseapa3.blob.core.windows.net,southeastasia,"['52.239.129.196/32', '20.150.127.43/32', '52.239.197.100/32', '52.239.129.68/32', '20.150.86.132/32']",no
+Southeast Asia,Artifact Blob storage secondary,dbartifactsprodeap.blob.core.windows.net,southeastasia,['52.175.112.16/32'],no
+Southeast Asia,Log Blob storage,dblogprodseasia.blob.core.windows.net,southeastasia,"['20.150.86.36/32', '20.150.86.4/32', '20.150.86.100/32']",no
+Southeast Asia,Event Hub endpoint,prod-southeastasia-observabilityeventhubs.servicebus.windows.net,southeastasia,['40.78.234.0/32'],no
+Sweden Central,Metastore,consolidated-swedencentral-prod-metastore-0.mysql.database.azure.com,swedencentral,['51.12.96.32/32'],no
+Sweden Central,Artifact Blob storage primary,dbartifactsprodswdncntr.blob.core.windows.net,swedencentral,['20.60.234.4/32'],no
+Sweden Central,Artifact Blob storage secondary,dbartifactsprodnweast.blob.core.windows.net,swedencentral,['20.38.120.36/32'],no
+Sweden Central,Log Blob storage,dblogprodswdncntr.blob.core.windows.net,swedencentral,['20.60.78.100/32'],no
+Sweden Central,Event Hub endpoint,prod-swedencentral-observabilityeventhubs.servicebus.windows.net,swedencentral,['51.12.98.160/32'],no
+Switzerland North,Metastore,consolidated-switzerlandnorth-prod-metastore-0.mysql.database.azure.com,switzerlandnorth,['51.107.56.0/32'],no
+Switzerland North,Artifact Blob storage primary,dbartifactsprodswissnor.blob.core.windows.net,switzerlandnorth,['52.239.251.68/32'],no
+Switzerland North,Artifact Blob storage secondary,dbartifactsprodwesteu.blob.core.windows.net,switzerlandnorth,['52.239.242.196/32'],no
+Switzerland North,Log Blob storage,dblogprodswissnor.blob.core.windows.net,switzerlandnorth,['52.239.251.68/32'],no
+Switzerland North,Event Hub endpoint,prod-switzerlandnorth-observabilityeventhubs.servicebus.windows.net,switzerlandnorth,['51.107.58.128/32'],no
+Switzerland West and  (Requires Azure region access request),Metastore,consolidated-switzerlandwest-prod-metastore-0.mysql.database.azure.com and consolidated-switzerlandwest-prod-metastore-0.mysql.database.azure.com,switzerlandwest,['51.107.152.0/32'],no
+Switzerland West and  (Requires Azure region access request),Artifact Blob storage primary,dbartifactsprodswisswest.blob.core.windows.net,switzerlandwest,['52.239.250.4/32'],no
+Switzerland West and  (Requires Azure region access request),Artifact Blob storage secondary,dbartifactsprodswissnor.blob.core.windows.net,switzerlandwest,['52.239.251.68/32'],no
+Switzerland West and  (Requires Azure region access request),Log Blob storage,dblogprodswisswest.blob.core.windows.net,switzerlandwest,['52.239.250.4/32'],no
+Switzerland West and  (Requires Azure region access request),Event Hub endpoint,prod-switzerlandwest-observabilityeventhubs.servicebus.windows.net,switzerlandwest,['51.107.154.128/32'],no
+UAE North,Metastore,consolidated-uaenorth-prod-metastore.mysql.database.azure.com,uaenorth,['65.52.248.0/32'],no
+UAE North,Artifact Blob storage primary,dbartifactsproduaenorth.blob.core.windows.net,uaenorth,['52.239.233.228/32'],no
+UAE North,Artifact Blob storage secondary,dbartifactsprodsafrican.blob.core.windows.net,uaenorth,['52.239.232.36/32'],no
+UAE North,Log Blob storage,dblogproduaenorth.blob.core.windows.net,uaenorth,['52.239.233.228/32'],no
+UAE North,Event Hub endpoint,prod-uaenorth-observabilityeventhubs.servicebus.windows.net,uaenorth,['65.52.250.32/32'],no
+UK South,Metastore,consolidated-uksouth-prod-metastore.mysql.database.azure.com and consolidated-uksouth-prod-metastore-addl-1.mysql.database.azure.com,uksouth,['51.105.64.0/32'],no
+UK South,Artifact Blob storage primary,dbartifactsproduksouth.blob.core.windows.net,uksouth,"['20.38.106.100/32', '20.38.106.132/32', '52.239.231.228/32']",no
+UK South,Artifact Blob storage secondary,dbartifactsprodukwest.blob.core.windows.net,uksouth,['51.141.128.100/32'],no
+UK South,Log Blob storage,dblogprodukwest.blob.core.windows.net,uksouth,['20.150.3.228/32'],no
+UK South,Event Hub endpoint,prod-ukwest-observabilityeventhubs.servicebus.windows.net,uksouth,['51.140.210.34/32'],no
+UK West,Metastore,consolidated-ukwest-prod-metastore.mysql.database.azure.com,ukwest,['51.141.8.11/32'],no
+UK West,Artifact Blob storage primary,dbartifactsprodukwest.blob.core.windows.net,ukwest,['51.141.128.100/32'],no
+UK West,Artifact Blob storage secondary,dbartifactsproduksouth.blob.core.windows.net,ukwest,"['20.38.106.100/32', '20.38.106.132/32', '52.239.231.228/32']",no
+UK West,Log Blob storage,dblogprodukwest.blob.core.windows.net,ukwest,['20.150.3.228/32'],no
+UK West,Event Hub endpoint,prod-ukwest-observabilityeventhubs.servicebus.windows.net,ukwest,['51.140.210.34/32'],no
+US Gov Arizona,Metastore,consolidated-usgovarizona-prod-metastore-0.mysql.database.usgovcloudapi.net,usgovarizona,['52.244.48.33/32'],no
+US Gov Arizona,Artifact Blob storage primary,dbartifactsprodusgariz.blob.core.usgovcloudapi.net,usgovarizona,['52.239.166.10/32'],no
+US Gov Arizona,Artifact Blob storage secondary,dbartifactsprodusgvirg.blob.core.usgovcloudapi.net,usgovarizona,['52.126.192.196/32'],no
+US Gov Arizona,Log Blob storage,dblogprodusgovvirg.blob.core.usgovcloudapi.net,usgovarizona,['52.227.128.46/32'],no
+US Gov Arizona,Event Hub endpoint,prod-usgovarizona-observabilityeventhubs.servicebus.usgovcloudapi.net,usgovarizona,['52.244.48.85/32'],no
+US Gov Virginia,Metastore,consolidated-usgovvirginia-prod-metastore.mysql.database.usgovcloudapi.net,usgovvirginia,['13.72.48.140/32'],no
+US Gov Virginia,Artifact Blob storage primary,dbartifactsprodusgvirg.blob.core.usgovcloudapi.net,usgovvirginia,['52.126.192.196/32'],no
+US Gov Virginia,Artifact Blob storage secondary,dbartifactsprodusgariz.blob.core.usgovcloudapi.net,usgovvirginia,['52.239.166.10/32'],no
+US Gov Virginia,Log Blob storage,dblogprodusgovvirg.blob.core.usgovcloudapi.net,usgovvirginia,['52.227.128.46/32'],no
+US Gov Virginia,Event Hub endpoint,prod-usgovvirginia-observabilityeventhubs.servicebus.usgovcloudapi.net,usgovvirginia,['23.97.0.197/32'],no
+West Central US,Metastore,consolidated-westcentralus-prod-metastore-0.mysql.database.azure.com,westcentralus,['13.78.145.25/32'],no
+West Central US,Artifact Blob storage primary,dbartifactsprodwcentus.blob.core.windows.net,westcentralus,['13.71.200.96/32'],no
+West Central US,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,westcentralus,['52.238.56.180/32'],no
+West Central US,Log Blob storage,dblogprodwcentus.blob.core.windows.net,westcentralus,['20.150.81.4/32'],no
+West Central US,Event Hub endpoint,prod-westcentralus-observabilityeventhubs.servicebus.windows.net,westcentralus,['13.71.194.80/32'],no
+West Europe,Metastore,consolidated-westeurope-prod-metastore.mysql.database.azure.com and consolidated-westeurope-prod-metastore-addl-1.mysql.database.azure.com and consolidated-westeurope-prod-metastore-addl-2.mysql.database.azure.com and consolidated-westeurope-prod-metastore-addl-3.mysql.database.azure.com and consolidated-westeuropec2-prod-metastore-0.mysql.database.azure.com and consolidated-westeuropec2-prod-metastore-1.mysql.database.azure.com and consolidated-westeuropec2-prod-metastore-2.mysql.database.azure.com and consolidated-westeuropec2-prod-metastore-3.mysql.database.azure.com,westeurope,"['104.40.169.187/32', '13.69.105.208/32']",no
+West Europe,Artifact Blob storage primary,dbartifactsprodwesteu.blob.core.windows.net and arprodwesteua1.blob.core.windows.net and arprodwesteua2.blob.core.windows.net and arprodwesteua3.blob.core.windows.net and arprodwesteua4.blob.core.windows.net and arprodwesteua5.blob.core.windows.net and arprodwesteua6.blob.core.windows.net and arprodwesteua7.blob.core.windows.net and arprodwesteua8.blob.core.windows.net and arprodwesteua9.blob.core.windows.net and arprodwesteua10.blob.core.windows.net and arprodwesteua11.blob.core.windows.net and arprodwesteua12.blob.core.windows.net and arprodwesteua13.blob.core.windows.net and arprodwesteua14.blob.core.windows.net and arprodwesteua15.blob.core.windows.net,westeurope,"['20.150.9.132/32', '20.60.250.196/32', '20.60.197.68/32', '20.60.222.129/32', '52.239.242.196/32', '52.239.141.68/32', '20.150.122.36/32', '20.150.122.68/32', '20.60.223.68/32', '20.150.122.100/32', '20.150.76.228/32', '20.60.26.196/32']",no
+West Europe,Artifact Blob storage secondary,dbartifactsprodnortheu.blob.core.windows.net,westeurope,"['52.239.137.36/32', '52.239.137.164/32', '52.245.40.100/32']",no
+West Europe,Log Blob storage,dblogprodwesteurope.blob.core.windows.net,westeurope,['52.239.141.36/32'],no
+West Europe,Event Hub endpoint,prod-westeurope-observabilityeventhubs.servicebus.windows.net and prod-westeuc2-observabilityeventhubs.servicebus.windows.net,westeurope,"['13.69.64.0/32', '23.100.14.185/32']",no
+West India,Metastore,consolidated-westindia-prod-metastore.mysql.database.azure.com,westindia,['104.211.160.80/32'],no
+West India,Artifact Blob storage primary,dbartifactsprodwindia.blob.core.windows.net,westindia,['52.239.135.234/32'],no
+West India,Artifact Blob storage secondary,dbartifactsprodsindia.blob.core.windows.net,westindia,['104.211.232.16/32'],no
+West India,Log Blob storage,dblogprodcindia.blob.core.windows.net,westindia,['20.38.126.228/32'],no
+West India,Event Hub endpoint,prod-centralindia-observabilityeventhubs.servicebus.windows.net,westindia,['104.211.98.185/32'],no
+West US,Metastore,consolidated-westus-prod-metastore.mysql.database.azure.com and consolidated-westus-prod-metastore-addl-1.mysql.database.azure.com and consolidated-westus-prod-metastore-addl-2.mysql.database.azure.com and consolidated-westus-prod-metastore-addl-3.mysql.database.azure.com and consolidated-westus2c2-prod-metastore-addl-1.mysql.database.azure.com,westus,"['104.42.238.205/32', '13.66.136.192/32', '13.86.217.212/32', '13.86.216.212/32']",no
+West US,Artifact Blob storage primary,dbartifactsprodwestus.blob.core.windows.net and arprodwestusa1.blob.core.windows.net and arprodwestusa2.blob.core.windows.net and arprodwestusa3.blob.core.windows.net and arprodwestusa4.blob.core.windows.net and arprodwestusa5.blob.core.windows.net and arprodwestusa6.blob.core.windows.net and arprodwestusa7.blob.core.windows.net and arprodwestusa8.blob.core.windows.net and arprodwestusa9.blob.core.windows.net and arprodwestusa10.blob.core.windows.net and arprodwestusa11.blob.core.windows.net and arprodwestusa12.blob.core.windows.net and arprodwestusa13.blob.core.windows.net and arprodwestusa14.blob.core.windows.net and arprodwestusa15.blob.core.windows.net,westus,"['20.60.1.4/32', '20.60.168.1/32', '52.239.163.164/32', '52.238.56.180/32', '20.60.81.229/32', '52.239.162.4/32', '52.239.229.100/32', '52.190.240.132/32', '20.150.35.4/32', '52.241.88.36/32', '52.239.228.196/32']",no
+West US,Artifact Blob storage secondary,dbartifactsprodwestus2.blob.core.windows.net,westus,"['20.150.78.100/32', '20.150.78.36/32', '20.150.78.164/32']",no
+West US,Log Blob storage,dblogprodwestus.blob.core.windows.net,westus,['52.239.229.100/32'],no
+West US,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net and prod-westus2c2-observabilityeventhubs.servicebus.windows.net,westus,"['40.112.242.0/32', '13.66.138.69/32']",no
+West US 2,Metastore,consolidated-westus2-prod-metastore.mysql.database.azure.com and consolidated-westus2-prod-metastore-addl-1.mysql.database.azure.com and consolidated-westus2-prod-metastore-addl-2.mysql.database.azure.com,westus2,['13.66.136.192/32'],no
+West US 2,Artifact Blob storage primary,dbartifactsprodwestus2.blob.core.windows.net and arprodwestus2a1.blob.core.windows.net and arprodwestus2a2.blob.core.windows.net and arprodwestus2a3.blob.core.windows.net and arprodwestus2a4.blob.core.windows.net and arprodwestus2a5.blob.core.windows.net and arprodwestus2a6.blob.core.windows.net,westus2,"['52.239.193.100/32', '20.150.78.100/32', '20.60.153.129/32', '20.60.153.225/32', '52.239.236.228/32', '52.239.193.68/32', '20.150.78.36/32', '20.150.78.164/32']",no
+West US 2,Artifact Blob storage secondary,dbartifactsprodwestus.blob.core.windows.net,westus2,['52.238.56.180/32'],no
+West US 2,Log Blob storage,dblogprodwestus.blob.core.windows.net and dblogprodwestus2.blob.core.windows.net,westus2,"['52.239.229.100/32', '20.150.87.164/32', '20.150.87.196/32', '20.150.87.228/32']",no
+West US 2,Event Hub endpoint,prod-westus-observabilityEventHubs.servicebus.windows.net,westus2,['40.112.242.0/32'],no
